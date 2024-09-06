@@ -1,0 +1,177 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:chicken",
+			"is_summonable": true
+		},
+		"components": {
+		},
+		"component_groups": {
+			"default": {
+				"minecraft:behavior.float": {
+					"priority": 2
+				},
+				"minecraft:behavior.look_at_player": {
+					"look_distance": 6.0,
+					"priority": 5,
+					"probability": 0.02
+				},
+				"minecraft:behavior.random_look_around": {
+					"priority": 10
+				},
+				"minecraft:behavior.random_stroll": {
+					"priority": 6,
+					"speed_multiplier": 1.0,
+					"xz_dist": 5,
+					"y_dist": 1
+				},
+				"minecraft:breathable": {
+					"suffocateTime": 0,
+					"totalSupply": 15
+				},
+				"minecraft:can_climb": {
+				},
+				"minecraft:collision_box": {
+					"height": 0.8,
+					"width": 0.6
+				},
+				"minecraft:damage_sensor": [
+					{
+						"on_damage": {
+						},
+						"deals_damage": false
+					}
+				],
+				"minecraft:health": {
+					"max": 4,
+					"value": 4
+				},
+				"minecraft:jump.static": {
+					"jump_power": 0.0
+				},
+				"minecraft:movement": {
+					"value": 0.25
+				},
+				"minecraft:movement.basic": {	
+				},
+				"minecraft:navigation.walk": {
+					"avoid_damage_blocks": true,
+					"can_path_over_water": true
+				},
+				"minecraft:persistent": {
+				},
+				"minecraft:physics": {
+				},
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": false
+				},
+				"minecraft:type_family": {
+					"family": [
+						"chicken"
+					]
+				}
+			},
+			"despawn": {
+				"minecraft:despawn": {
+				}
+			},
+			"environment_sensor": {
+				"minecraft:environment_sensor": [
+					{
+						"on_environment": {
+							"event": "despawn",
+							"filters": {
+								"test": "has_tag",
+								"value": "despawn"
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "is_baby_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "is_baby"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:is_baby"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "is_baby_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "is_baby"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:is_baby"
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			"is_baby": {
+				"minecraft:is_baby": {
+				},
+				"minecraft:scale": {
+					"value": 0.5
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"default",
+						"environment_sensor"
+					]
+				}
+			},
+			"default": {
+				"add": {
+					"component_groups": [
+						"default",
+						"environment_sensor"
+					]
+				}
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"is_baby_add": {
+				"add": {
+					"component_groups": [
+						"is_baby"
+					]
+				}
+			},
+			"is_baby_remove": {
+				"remove": {
+					"component_groups": [
+						"is_baby"
+					]
+				}
+			}
+		}
+	}
+}

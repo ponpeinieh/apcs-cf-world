@@ -1,0 +1,91 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:agent",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:behavior.look_at_entity": {
+				"angle_of_view_horizontal": 170,
+				"angle_of_view_vertical": 135,
+				"filters": { 
+					"all_of": [
+						{
+							"subject": "other",
+							"test": "is_family",
+							"value": "player"
+						},
+						{
+							"subject": "other",
+							"test": "is_owner",
+							"value": true
+						}
+					] 
+				},
+				"look_distance": 6.0,
+				"priority": 2,
+				"probability": 1.0
+			},
+			"minecraft:collision_box": {
+				"height": 0.93,
+				"width": 0.6
+			},
+			"minecraft:damage_sensor": [
+				{
+					"cause": "all",
+					"deals_damage": false
+				}
+			],
+			"minecraft:environment_sensor": [
+				{
+					"on_environment": {
+						"event": "despawn",
+						"filters": {
+							"test": "has_tag",
+							"value": "despawn"
+						}
+					}
+				}
+			],
+			"minecraft:fire_immune": true,
+			"minecraft:inventory": {
+				"container_type": "container", 
+				"inventory_size": 27,
+				"restrict_to_owner": true
+			},
+			"minecraft:movement": {
+				"max": 1,
+				"value": 1
+			},
+			"minecraft:nameable": {
+				"allowNameTagRenaming": false,
+				"alwaysShow": true
+			},
+			"minecraft:physics": {
+			},
+			"minecraft:scale": {
+				"value":1.0
+			},
+			"minecraft:tick_world": {
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:despawn": {
+				}
+			}
+		},
+		"events":{
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			}
+		}
+	}
+}

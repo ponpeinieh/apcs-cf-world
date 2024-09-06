@@ -1,0 +1,25 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.reset": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{
+							"reset": "query.mark_variant == 1"
+						}
+					]
+				},
+				"reset": {
+					"on_entry": ["@s reset", "/tag @s remove track_player", "/tag @s remove track_target"],
+					"transitions": [
+						{
+							"default": "query.mark_variant == 0"
+						}
+					]
+				}
+			}
+		}
+	}
+}

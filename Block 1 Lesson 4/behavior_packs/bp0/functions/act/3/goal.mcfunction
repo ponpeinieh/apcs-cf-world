@@ -1,0 +1,7 @@
+function generic/goal
+
+# fill  air
+clone 112 33 80 128 33 80 112 72 80
+clone 112 33 96 128 33 96 112 72 96
+clone 112 33 81 112 33 95 112 72 81
+clone 127 33 81 127 33 95 127 72 81

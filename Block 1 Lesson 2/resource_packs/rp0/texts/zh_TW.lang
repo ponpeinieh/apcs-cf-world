@@ -1,0 +1,53 @@
+##
+## Block 1 Lesson 2
+## 版權所有 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 1 Lesson 2
+pack.description=Block 1 Lesson 2 所需資源
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=巴爾溫博士
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=第一站將是加拉帕戈斯群島。由於其獨特的野生動物，有些只存在於這個島上，所以它是個很好的起點！
+announcer.dialogue.2=之前發生了一場風暴，吹倒了一些樹木並將垃圾沖到了岸邊。我們需要去那裡清理一下。
+announcer.dialogue.3=我會在這裡等你，若需要幫助，請使用你的 §l§n§2收音機§r。
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+lobby.actionbar=右鍵點擊巴爾溫博士開始。
+code.actionbar=按下 "C" 開始編程。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=重置活動
+
+radio.title.warning=確認重置
+radio.subtitle.warning=再次使用以確認。
+radio.title.reset=活動重置
+radio.title.proceed=活動完成。
+radio.subtitle.proceed=繼續下一個活動。
+
+radio.intro=*收音機靜電*
+
+##	Acts
+
+act.1.chat.1=讓代理沿著路徑前進。海龜巢穴應該不遠了！
+
+act.2.chat.1=再往前一點。我覺得前面有障礙物。
+
+act.3.chat.1=把那棵樹清理掉，給小海龜一條清晰的路徑。
+
+act.4.chat.1=這裡有一些沖上岸的垃圾。讓代理破壞並收集它。
+
+act.5.chat.1=沙灘上還有很多垃圾。我們需要加快速度，清理乾淨，趁海龜還沒孵化出來。

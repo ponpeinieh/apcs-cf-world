@@ -1,0 +1,56 @@
+##
+## Block 1 第四課
+## 版權所有 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 1 第四課  
+pack.description=Block 1 第四課所需資源  
+
+##	泛用
+
+##	{"rawtext":[{"translate":"announcer"}]}  
+announcer=巴爾溫博士
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}  
+announcer.dialogue.1=大熊貓面臨的最大問題之一是棲息地喪失。人類砍伐了許多竹林，而竹子是它們唯一的食物來源。  
+announcer.dialogue.2=我們收到消息，有一隻熊貓在它的家園被清理後，找到了這個城鎮。我們找到了一個理想的地點。下去看看能否把這個地方整理得更好，吸引熊貓過來。  
+announcer.dialogue.3=我在這裡還有些工作，如果需要幫助，通過§l§n§2收音機§r呼叫我。  
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set  
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}  
+announcer.button.ready=我準備好了  
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}  
+announcer.button.not_ready=尚未準備好  
+
+lobby.actionbar=右鍵點擊巴爾溫博士以開始。  
+code.actionbar=按 "C" 來編寫代碼。
+
+act.title.complete=活動完成！  
+lesson.title.complete=課程完成！  
+lesson.title.completed=課程已完成。  
+end.title.feeding=餵食時間！
+
+item.fishing_rod.name=§l§n§2收音機§r  
+action.interact.fishing=重置活動  
+
+radio.title.warning=確認重置  
+radio.subtitle.warning=再次使用以確認。  
+radio.title.reset=活動重置  
+radio.title.proceed=活動完成。  
+radio.subtitle.proceed=加載下一個活動。  
+radio.title.follow=跟隨道路。
+
+radio.intro=*收音機靜音*  
+
+##	活動  
+
+act.1.chat.1=那裡就是熊貓了。如果你沿著這條路走過彎道，你會找到我們選擇的地點。  
+
+act.2.chat.1=完美！那就是了。首先建造一個圍欄，把這個區域封閉起來，這樣就不會被打擾。  
+
+act.3.chat.1=現在讓我們在圍欄周圍種植一些竹子。希望這樣能引起熊貓的興趣。  
+
+act.4.chat.1=我覺得熊貓已經感興趣了！讓我們在那個沙地區域周圍建一個小空地，讓熊貓可以在那裡躲藏和吃東西。  
+
+act.5.chat.1=我們成功了！看起來熊貓已經安頓下來了！讓我們用一些花把這個地方弄得更漂亮吧！

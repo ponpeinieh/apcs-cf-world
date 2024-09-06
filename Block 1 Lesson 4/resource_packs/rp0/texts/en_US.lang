@@ -1,0 +1,63 @@
+##
+## Block 1 Lesson 4
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 1 Lesson 4
+pack.description=Resources needed for Block 1 Lesson 4
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Barwin
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=One of the biggest issues pandas face is habitat loss. Humans have cut down much of their bamboo forests, and bamboo is their sole food source.
+announcer.dialogue.2=We recieved word of a panda who's found its way into this town after its home was cleared. We found a location that would be ideal. Go down and see if you could nicen the area up to attract the panda.
+announcer.dialogue.3=I have some work to do up here, call me on the §l§n§2Radio§r if you need help.
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Right-click Dr. Barwin to begin.
+code.actionbar=Press "C" to code.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+lesson.title.completed=Lesson Completed.
+end.title.feeding=Feeding Time!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Loading the next activity.
+radio.title.follow=Follow the road.
+
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=There's the panda up ahead. If you follow this road around the bend you'll find the location we picked out.
+
+
+act.2.chat.1=Perfect! There it is. Let's first build a fence closing off the area so no one can disturb it.
+
+
+act.3.chat.1=Now let's plant some bamboo around the perimeter. Hopefully this will catch the panda's interest.
+
+
+act.4.chat.1=I think the panda's interested! Let's build a small patch around that sand area where the panda can hide out and eat.
+
+
+act.5.chat.1=We did it! It looks like the panda has made it home! Let's make the place a little nicer with some flowers!
+
+
+

@@ -1,0 +1,244 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:turtle",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:behavior.look_at_player": {
+				"priority": 4,
+				"probability": 0.02,
+				"target_distance": 6.0
+			},
+			"minecraft:behavior.random_swim": {
+				"interval": 0,
+				"priority": 3,
+				"xz_dist": 30,
+				"y_dist": 15
+			},
+			"minecraft:breathable": {
+				"breathesAir": true,
+				"breathesWater": true,
+				"generatesBubbles": false,
+				"suffocateTime": 0,
+				"totalSupply": 15
+			},
+			"minecraft:damage_sensor": {
+				"deals_damage": false
+			},
+			"minecraft:environment_sensor": [
+				{
+					"on_environment": {
+						"event": "random_stroll_add",
+						"filters": {
+							"all_of": [
+								{
+									"test": "has_tag",
+									"value": "random_stroll"
+								},
+								{
+									"operator": "not",
+									"test": "has_component",
+									"value": "minecraft:behavior.random_stroll"
+								}
+							]
+						}
+					}
+				},
+				{
+					"on_environment": {
+						"event": "random_stroll_remove",
+						"filters": {
+							"all_of": [
+								{
+									"operator": "not",
+									"test": "has_tag",
+									"value": "random_stroll"
+								},
+								{
+									"test": "has_component",
+									"value": "minecraft:behavior.random_stroll"
+								}
+							]
+						}
+					}
+				}
+			],
+			"minecraft:follow_range": {
+				"value": 128
+			},
+			"minecraft:health": {
+				"value": 30
+			},
+			"minecraft:jump.static": {
+			},
+			"minecraft:movement": {
+				"value": 0.1
+			},
+			"minecraft:movement.amphibious": {
+				"max_turn": 5.0
+			},
+			"minecraft:nameable": {
+			},
+			"minecraft:navigation.generic": {
+				"avoid_damage_blocks": true,
+				"can_path_over_water": false,
+				"can_sink": false,
+				"can_swim": true,
+				"can_walk": true,
+				"is_amphibious": true
+			},
+			"minecraft:persistent": {
+			},
+			"minecraft:physics": {
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:push_through": {
+				"value": 1
+			},
+			"minecraft:water_movement": {
+				"drag_factor": 0.9
+			}
+		},
+		"component_groups": {
+			"adult": {
+				"minecraft:collision_box": {
+					"height": 0.4,
+					"width": 1.2
+				},
+				"minecraft:type_family": {
+					"family": [
+						"mob",
+						"turtle"
+					]
+				},
+				"minecraft:underwater_movement": {
+					"value": 0.12
+				}
+			},
+			"baby": {
+				"minecraft:collision_box": {
+					"width": 0.6,
+					"height": 0.2
+				},
+				"minecraft:is_baby": {
+				},
+				"minecraft:movement": {
+					"value": 0.15
+				},
+				"minecraft:scale": {
+					"value": 0.16
+				},
+				"minecraft:type_family": {
+					"family": [
+						"baby_turtle",
+						"mob",
+						"turtle"
+					]
+				},
+				"minecraft:underwater_movement": {
+					"value": 0.06
+				}
+			},
+			"despawn": {
+				"minecraft:despawn": {
+				}
+			},
+			"random_stroll": {
+				"minecraft:behavior.random_stroll": {
+					"priority": 1,
+					"interval": 100
+				}
+			},
+			"track": {
+				"minecraft:attack": {
+					"damage": 0
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 2,
+					"reach_multiplier": 0.0,
+					"track_target": false
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"attack_interval": 1,
+					"entity_types": [
+						{
+							"filters": {
+								"subject": "other",
+								"test": "is_family",
+								"value": "target"
+							},
+							"max_dist": 128
+						}
+					],
+					"must_see": false,
+					"priority": 1,
+					"reselect_targets": true
+				},
+				"minecraft:target_nearby_sensor": {
+					"inside_range": 1.5,
+					"must_see": false,
+					"on_inside_range": {
+						"event": "despawn",
+						"target": "self"
+					},
+					"outside_range": 2.0
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"adult"
+					]
+				}
+			},
+			"adult": {
+				"add": {
+					"component_groups": [
+						"adult"
+					]
+				}
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"hatch": {
+				"remove": {
+					"component_groups": [
+						"adult"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"baby",
+						"track"
+					]
+				}
+			},
+			"random_stroll_add": {
+				"add": {
+					"component_groups": [
+						"random_stroll"
+					]
+				}
+			},
+			"random_stroll_remove": {
+				"remove": {
+					"component_groups": [
+						"random_stroll"
+					]
+				}
+			}
+		}
+	}
+}

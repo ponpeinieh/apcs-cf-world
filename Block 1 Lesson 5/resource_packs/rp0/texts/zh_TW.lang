@@ -1,0 +1,51 @@
+##
+## Block 1 第五課
+## 版權所有 2020 ReWrite Media, Inc
+##
+
+pack.name=Block 1 第五課  
+pack.description=Block 1 第五課所需資源  
+
+##	泛用
+
+##	{"rawtext":[{"translate":"announcer"}]}  
+announcer=巴爾溫博士
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}  
+announcer.dialogue.1=狼是一種強壯而迅速的獵人，遍布全球。牠們屬於§ocanine§r家族，所以牠們是狗的親戚！  
+announcer.dialogue.2=牠們面臨的最大威脅是與人類的衝突。狼在尋找食物時，有時會遇到牛和其他家畜。農民會採取各種措施來防止牠們靠近。  
+announcer.dialogue.3=下去看看能否幫助農民用和平的方式驅趕狼。我會在這裡待著，隨時通過§l§n§2收音機§r監控你是否需要幫助。
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set  
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}  
+announcer.button.ready=我準備好了  
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}  
+announcer.button.not_ready=尚未準備好  
+
+lobby.actionbar=與巴爾溫博士互動以開始。  
+code.actionbar=按 "C" 來編寫代碼或觸摸代理圖標。
+
+act.title.complete=活動完成！  
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2收音機§r  
+action.interact.fishing=重置活動  
+
+radio.title.warning=確認重置  
+radio.subtitle.warning=再次使用以確認。  
+radio.title.reset=活動重置  
+radio.title.proceed=活動完成。  
+radio.subtitle.proceed=進入下一個活動。  
+
+radio.intro=*收音機靜音*  
+
+##	活動  
+
+act.1.chat.1=那些在圍欄後面的狼似乎想把這些雞當作午餐。我們來把這個鐵圍欄再加高一些，讓牠們不會那麼容易被吃掉吧!§8  
+
+act.2.chat.1=改變家畜的餵食位置可以讓狼更難找到牠們。使用代理把羊引導到另一個牧場。  
+
+act.3.chat.1=設置會發出響聲的陷阱是一個驅趕牠們的好方法。將兩個鈴鐺之間連接一條電線，這樣狼經過時鈴鐺會響起。  
+
+act.4.chat.1=狼喜歡遮蔽的地方。如果我們清理掉這最後一片草地，我們就能看到狼再也不會出現了。  

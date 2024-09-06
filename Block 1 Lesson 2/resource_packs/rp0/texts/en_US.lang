@@ -1,0 +1,60 @@
+##
+## Block 1 Lesson 2
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 1 Lesson 2
+pack.description=Resources needed for Block 1 Lesson 2
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Barwin
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=The first stop will be the Galapagos Islands. It's a great starting off point due to its unique wildlife, some of which only exist on this island!
+announcer.dialogue.2=There was a storm earlier that knocked down some trees and washed up trash onto the shore. We'll need to go down there and clear it out.
+announcer.dialogue.3=I'll wait up here, use your §l§n§2Radio§r if you need help.
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Right-click Dr. Barwin to begin.
+code.actionbar=Press "C" to code.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=Have the Agent follow along the path. The turtle nests can't be far away!
+
+
+act.2.chat.1=Just a little bit further. I think I could see the obstruction up ahead.
+
+
+act.3.chat.1=Let's get that tree out of the way to give the baby turtles a clear path.
+
+
+act.4.chat.1=Here's some of the trash that washed up. Have the Agent destroy and collect it.
+
+
+act.5.chat.1=There's a lot more trash on the beach. We need to hurry and clean it up before the turtles hatch.
+
+
+

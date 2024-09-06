@@ -1,0 +1,49 @@
+##
+## Block 1 Lesson 1
+## Copyright 2020 ReWrite Media, Inc
+##
+
+pack.name=Block 1 Lesson 1
+pack.description=Block 1 Lesson 1 所需的資源
+
+## Generics
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=重置活動
+pre.announcer=教程
+announcer=巴爾溫博士
+act.title.complete=區域完成！
+radio.title.warning=確認重置
+radio.subtitle.warning=再次使用以確認。
+radio.title.reset=活動已重置
+radio.intro=*收音機靜電聲*
+
+## Acts
+
+act.1.chat.1=歡迎來到測試設施！在我們出發前，有幾件事你必須學習。首先，將金塊移動到屏幕的中央。
+
+tutorial.actionbar.looking=將金塊置於屏幕中央。
+tutorial.chat.movement=現在我們來練習基本的移動。嘗試繞過這些障礙物行走。使用滑鼠來幫助轉彎。
+tutorial.actionbar.moving=通過按 'W' 'A' 'S' 和 'D' 鍵或使用觸控控制來移動
+tutorial.actionbar.ladders=走向梯子並按住 'W' 或前進鍵來攀爬
+tutorial.actionbar.jumping=按空格鍵跳躍
+tutorial.actionbar.doors=指向門並右鍵點擊或點擊操作按鈕以打開
+tutorial.actionbar.buttons=指向按鈕並右鍵點擊或點擊操作按鈕來按下
+
+act.3.chat.1=你到達實驗室了！走過去與巴爾溫博士對話，右鍵點擊他。他會接手剩下的部分。
+act.3.npc.name=巴爾溫博士
+act.3.npc.dialogue.1=你好！我是查克·巴爾溫博士。我在這裡負責探險。在我們開始之前，你需要了解如何使用代碼來控制你的代理人。
+act.3.npc.dialogue.2=當你按下右上角的 §l§2X§r 來關閉此窗口後，你可以通過按下鍵盤上的 §l§2C§r 來打開編碼窗口。
+act.3.npc.dialogue.3=打開編碼窗口後還會生成代理人。試一下吧！
+
+act.3.actionbar=按 "C" 鍵或代理人按鈕來編碼。
+
+act.4.chat.1=我忘了告訴你有關 §l§n§2收音機§r§6 的事了！如果你卡住了，右鍵點擊它來重置當前活動。試著編碼讓你的代理人移動到金塊。
+
+act.5.chat.1=你需要使用更高級的移動技巧來完成這個活動。嘗試讓你的代理人上升並越過障礙物，但別忘了下來！
+
+act.6.chat.1=幹得好！你已經到達了終點。這次你需要與代理人合作。在 10 秒內你們兩個都必須到達金壓力板。計時會在代理人移動時開始。
+act.6.title.fail=再試一次
+act.6.title.success=課程完成！
+act.6.sign.text=出口
+act.6.sign.arrow=--->

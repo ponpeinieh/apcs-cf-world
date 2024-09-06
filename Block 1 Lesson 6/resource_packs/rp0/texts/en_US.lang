@@ -1,0 +1,64 @@
+##
+## Block 1 Lesson 6
+## Copyright 2020 ReWrite Media, Inc
+##
+
+pack.name=Block 1 Lesson 6
+pack.description=Resources needed for Block 1 Lesson 6
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Barwin
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=Now it's time for you to start getting a bit more creative with your code!
+announcer.dialogue.2=Choose the environment you want to work in by using the buttons behind me to toggle through them. Inside each biome there will be 5 objectives for you to fullfill and plenty of room for you to try your own code. 
+announcer.dialogue.3=Work together to complete all the objectives. Feel free to work together to create your own objectives! Once you've selected which biome you want to go to, click the §lI'm ready§r button below to be teleported there. 
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+##	{"rawtext":[{"text":"\n"},{"translate":"lobby.sign.dec"}]}
+lobby.sign.dec=Previous Biome
+##	{"rawtext":[{"text":"\n"},{"translate":"lobby.sign.inc"}]}
+lobby.sign.inc=Next Biome
+
+lobby.actionbar=Right-click Dr. Barwin to begin.
+code.actionbar=Press "C" to code.
+
+## {"rawtext":[{"translate":"chalkboard.line.1"},{"text":"\n\n"},{"translate":"chalkboard.line.3"},{"text":"\n"},{"translate":"chalkboard.line.4"},{"text":"\n"},{"translate":"chalkboard.line.5"},{"text":"\n"},{"translate":"chalkboard.line.6"},{"text":"\n"},{"translate":"chalkboard.line.7"},{"text":"\n"},{"translate":"chalkboard.line.8"}]}
+##	Chalkboard
+chalkboard.line.1=Throughout this area you'll see pre-made objectives scattered around marked by a light post. Complete those objectives, and try to create custom code to make your own! After you summon the Agent by pressing §lC§r, you can use your §l§nRadio§r to teleport the Agent to your position. Use the button below to reset the area and teleport back to the airship.
+chalkboard.line.3=Objectives:
+chalkboard.line.4=1. Build a bridge.
+chalkboard.line.5=2. Complete the maze.
+chalkboard.line.6=3. Clean up the trash.
+chalkboard.line.7=4. Build a fence.
+chalkboard.line.8=5. Build a tower.
+
+act.title.warning=Exit Biome
+act.subtitle.warning=Press button again to confirm.
+
+act.title.cooldown=Exit Cooldown
+act.subtitle.cooldown=Please wait 30 seconds.
+
+act.title.return=Loading...
+act.subtitle.return=Please standby while we teleport you.
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Move Agent
+
+radio.title.warning=Move Agent
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Agent Moved
+
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=Welcome! Please read the board for the available objectives and instructions!

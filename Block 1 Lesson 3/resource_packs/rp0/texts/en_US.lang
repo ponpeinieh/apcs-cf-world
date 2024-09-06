@@ -1,0 +1,61 @@
+##
+## Block 1 Lesson 3
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 1 Lesson 3
+pack.description=Resources needed for Block 1 Lesson 3
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Barwin
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=Welcome to the home of one of my favorite kinds of bears, Ursus maritimus or how you might know them, polar bears.
+announcer.dialogue.2=The ice here in the arctic has been melting at a record pace due to the historically high temperatures. This causes the polar bears to have to search further from their home to find food. We've located a polar bear cub who's been separated from its family.
+announcer.dialogue.3=Head down and see if you could reunite them. I'll wait up here and be ready to help in case you call over the §l§n§2Radio§r.
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Right-click Dr. Barwin to begin.
+code.actionbar=Press "C" to code.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=Look at those tracks, they seem to lead right into that avalanche. We'll need to get through the snow if we want to find the bear cub.
+
+
+act.2.chat.1=It looks like the bridge here might have collapsed. Let's build a new one to get across.
+
+
+act.3.chat.1=Hmmm. Where do we go from here? Maybe if we had a little height we could see over all this ice. Build a tower that'll let you see over the ice wall.
+
+act.3.chat.end=There's the polar bear's family right over the ice wall. Let's hurry up and reunite them!
+
+act.4.chat.1=There's the cub's family, but they're separated on floating ice! Let's see if we could get them all to the center island by building bridges between them.
+
+
+
+
+
+

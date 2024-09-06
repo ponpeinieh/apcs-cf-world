@@ -1,0 +1,56 @@
+execute @s[scores={tick=0}] ~ ~ ~ clone -47 28 3942 -3 28 4047 -47 70 3942
+execute @s[scores={tick=0}] ~ ~ ~ clone 1 28 3942 39 28 4047 1 70 3942
+execute @s[scores={tick=0}] ~ ~ ~ clone -2 28 3942 0 28 3993 -2 70 3942
+execute @s[scores={tick=0}] ~ ~ ~ clone -2 28 3996 0 28 4047 -2 70 3996
+
+execute @s[scores={tick=1}] ~ ~ ~ clone -47 29 3942 -3 29 4047 -47 71 3942
+execute @s[scores={tick=1}] ~ ~ ~ clone 1 29 3942 39 29 4047 1 71 3942
+execute @s[scores={tick=1}] ~ ~ ~ clone -2 29 3942 0 29 3993 -2 71 3942
+execute @s[scores={tick=1}] ~ ~ ~ clone -2 29 3996 0 29 4047 -2 71 3996
+
+execute @s[scores={tick=2}] ~ ~ ~ clone -47 30 3942 -4 30 4047 -47 72 3942
+execute @s[scores={tick=2}] ~ ~ ~ clone 2 30 3942 39 30 4047 2 72 3942
+execute @s[scores={tick=2}] ~ ~ ~ clone -3 30 3942 1 30 3992 -3 72 3942
+execute @s[scores={tick=2}] ~ ~ ~ clone -3 30 3997 1 30 4047 -3 72 3997
+
+execute @s[scores={tick=3}] ~ ~ ~ clone -47 31 3942 -4 31 4047 -47 73 3942
+execute @s[scores={tick=3}] ~ ~ ~ clone 2 31 3942 39 31 4047 2 73 3942
+execute @s[scores={tick=3}] ~ ~ ~ clone -3 31 3942 1 31 3992 -3 73 3942
+execute @s[scores={tick=3}] ~ ~ ~ clone -3 31 3997 1 31 4047 -3 73 3997
+
+execute @s[scores={tick=4}] ~ ~ ~ clone -47 32 3942 39 32 4047 -47 74 3942
+execute @s[scores={tick=5}] ~ ~ ~ clone -47 33 3942 39 33 4047 -47 75 3942
+execute @s[scores={tick=6}] ~ ~ ~ clone -47 34 3942 39 34 4047 -47 76 3942
+execute @s[scores={tick=7}] ~ ~ ~ clone -47 35 3942 39 35 4047 -47 77 3942
+execute @s[scores={tick=8}] ~ ~ ~ clone -47 36 3942 39 36 4047 -47 78 3942
+execute @s[scores={tick=9}] ~ ~ ~ clone -47 37 3942 39 37 4047 -47 79 3942
+execute @s[scores={tick=10}] ~ ~ ~ clone -47 38 3942 39 38 4047 -47 80 3942
+execute @s[scores={tick=11}] ~ ~ ~ clone -47 39 3942 39 39 4047 -47 81 3942
+execute @s[scores={tick=12}] ~ ~ ~ clone -47 40 3942 39 40 4047 -47 82 3942
+execute @s[scores={tick=13}] ~ ~ ~ clone -47 41 3942 39 41 4047 -47 83 3942
+execute @s[scores={tick=14}] ~ ~ ~ clone -47 42 3942 39 42 4047 -47 84 3942
+execute @s[scores={tick=15}] ~ ~ ~ clone -47 43 3942 39 43 4047 -47 85 3942
+execute @s[scores={tick=16}] ~ ~ ~ clone -47 44 3942 39 44 4047 -47 86 3942
+execute @s[scores={tick=17}] ~ ~ ~ clone -47 45 3942 39 45 4047 -47 87 3942
+execute @s[scores={tick=18}] ~ ~ ~ clone -47 46 3942 39 46 4047 -47 88 3942
+execute @s[scores={tick=19}] ~ ~ ~ clone -47 47 3942 39 47 4047 -47 89 3942
+execute @s[scores={tick=20}] ~ ~ ~ clone -47 48 3942 39 48 4047 -47 90 3942
+execute @s[scores={tick=21}] ~ ~ ~ clone -47 49 3942 39 49 4047 -47 91 3942
+execute @s[scores={tick=22}] ~ ~ ~ clone -47 50 3942 39 50 4047 -47 92 3942
+execute @s[scores={tick=23}] ~ ~ ~ clone -47 51 3942 39 51 4047 -47 93 3942
+execute @s[scores={tick=24}] ~ ~ ~ clone -47 52 3942 39 52 4047 -47 94 3942
+execute @s[scores={tick=25}] ~ ~ ~ clone -47 53 3942 39 53 4047 -47 95 3942
+execute @s[scores={tick=26}] ~ ~ ~ clone -47 54 3942 39 54 4047 -47 96 3942
+execute @s[scores={tick=27}] ~ ~ ~ clone -47 55 3942 39 55 4047 -47 97 3942
+execute @s[scores={tick=28}] ~ ~ ~ clone -47 56 3942 39 56 4047 -47 98 3942
+execute @s[scores={tick=29}] ~ ~ ~ clone -47 57 3942 39 57 4047 -47 99 3942
+execute @s[scores={tick=30}] ~ ~ ~ clone -47 58 3942 39 58 4047 -47 100 3942
+execute @s[scores={tick=31}] ~ ~ ~ clone -47 59 3942 39 59 4047 -47 101 3942
+execute @s[scores={tick=32}] ~ ~ ~ clone -47 60 3942 39 60 4047 -47 102 3942
+execute @s[scores={tick=33}] ~ ~ ~ clone -47 61 3942 39 61 4047 -47 103 3942
+execute @s[scores={tick=34}] ~ ~ ~ clone -47 62 3942 39 62 4047 -47 104 3942
+execute @s[scores={tick=35}] ~ ~ ~ clone -47 63 3942 39 63 4047 -47 105 3942
+execute @s[scores={tick=36}] ~ ~ ~ clone -47 64 3942 39 64 4047 -47 106 3942
+execute @s[scores={tick=37}] ~ ~ ~ clone -47 65 3942 39 65 4047 -47 107 3942
+execute @s[scores={tick=38}] ~ ~ ~ clone -47 66 3942 39 66 4047 -47 108 3942
+execute @s[scores={tick=39}] ~ ~ ~ clone -47 67 3942 39 67 4047 -47 109 3942

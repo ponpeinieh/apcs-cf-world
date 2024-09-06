@@ -1,0 +1,49 @@
+##
+## Block 1 Lesson 1
+## Copyright 2020 ReWrite Media, Inc
+##
+
+pack.name=Block 1 Lesson 1
+pack.description=Resources needed for Block 1 Lesson 1
+
+##	Generics
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+pre.announcer=Tutorial
+announcer=Dr. Barwin
+act.title.complete=Area Complete!
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=Welcome to the testing facility! Before we head off on our expedition there's a few things you must learn. Let's start by moving the golden blocks to the centre of your screen.
+
+tutorial.actionbar.looking=Position the golden blocks in the centre of your screen.
+tutorial.chat.movement=Now we'll practice basic movement. Try to walk around these obstacles. Look around with your mouse to help turn corners. 
+tutorial.actionbar.moving=Move around by pressing 'W' 'A' 'S' and 'D' or your touch controls
+tutorial.actionbar.ladders=Climb ladders by walking into them and holding 'W' or forward
+tutorial.actionbar.jumping=Jump by pressing the spacebar
+tutorial.actionbar.doors=Open doors by pointing with your cursor and right-clicking or tapping the action button
+tutorial.actionbar.buttons=Press buttons by pointing with your cursor and right-clicking or tapping the action button
+
+act.3.chat.1=You made it to the lab! Go over there and talk to Dr. Barwin by right-clicking him. He'll take it from here.
+act.3.npc.name=Dr. Barwin
+act.3.npc.dialogue.1=Hi! I'm Dr. Chuck Barwin. I run the expeditions here. Before we can begin you'll need to learn about your Agent and how you could control it using code. 
+act.3.npc.dialogue.2=Once you close this window by pressing the §l§2X§r in the top right corner, you can open your coding window by pressing §l§2C§r on your keyboard.
+act.3.npc.dialogue.3=Opening up the coding window will also spawn the Agent. Give it a try!
+
+act.3.actionbar=Press "C" or the agent button to code.
+
+act.4.chat.1=I forgot to tell you about the §l§n§2radio§r§6! If you ever get stuck, use this by right-clicking it to reset the current activity. Let's see if you could code your Agent to move to the gold block.
+
+act.5.chat.1=You'll need to use more advanced movement to make it through this activity. Try moving your Agent up and over the obstacles. But don't forget to go back down!
+
+act.6.chat.1=Great job! You've made it to the end. This time you'll need to work with the Agent. Both of you must reach the gold pressure plates within 10 seconds. Time will start when the Agent moves.
+act.6.title.fail=Try Again
+act.6.title.success=Lesson Complete!
+act.6.sign.text=Exit
+act.6.sign.arrow=--->

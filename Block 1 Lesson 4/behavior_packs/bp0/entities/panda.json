@@ -1,0 +1,871 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:panda",
+			"is_summonable": true
+		},
+		"components": {
+		},
+		"component_groups": {
+			"default": {
+				"minecraft:behavior.look_at_player": {
+					"look_distance": 6.0,
+					"priority": 5,
+					"probability": 0.02
+				},
+				"minecraft:behavior.random_look_around": {
+					"priority": 10
+				},
+				"minecraft:breathable": {
+					"suffocate_time": 0,
+					"total_supply": 15
+				},
+				"minecraft:collision_box": {
+					"height": 1.5,
+					"width": 1.7
+				},
+				"minecraft:damage_sensor": [
+					{
+						"on_damage": {
+						},
+						"deals_damage": false
+					}
+				],
+				"minecraft:fire_immune": true,
+				"minecraft:health": {
+					"max": 20,
+					"min": 20,
+					"value": 20
+				},
+				"minecraft:persistent": {
+				},
+				"minecraft:physics": {
+				},
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": false
+				},
+				"minecraft:push_through": {
+					"value": 1
+				},
+				"minecraft:scale": {
+					"value": 1.0
+				},
+				"minecraft:type_family": {
+					"family": [
+						"panda"
+					]
+				}
+			},
+			"despawn": {
+				"minecraft:despawn": {
+				}
+			},
+			"environment_sensor": {
+				"minecraft:environment_sensor": [
+					{
+						"on_environment": {
+							"event": "despawn",
+							"filters": {
+								"test": "has_tag",
+								"value": "despawn"
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "is_baby_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "is_baby"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:is_baby"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "is_baby_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "is_baby"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:is_baby"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "lay_down_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "lay_down"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:behavior.lay_down"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "lay_down_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "lay_down"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:behavior.lay_down"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "lazy_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "lazy"
+									},
+									{
+										"operator": "not",
+										"test": "is_variant",
+										"value": 1
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "lazy_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "lazy"
+									},
+									{
+										"test": "is_variant",
+										"value": 1
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "movement_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "movement"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:movement"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "movement_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "movement"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:movement"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "playful_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "playful"
+									},
+									{
+										"operator": "not",
+										"test": "is_variant",
+										"value": 3
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "playful_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "playful"
+									},
+									{
+										"test": "is_variant",
+										"value": 3
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "random_sitting_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "random_sitting"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:behavior.random_sitting"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "random_sitting_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "random_sitting"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:behavior.random_sitting"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "random_stroll_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "random_stroll"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:behavior.random_stroll"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "random_stroll_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "random_stroll"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:behavior.random_stroll"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "roll_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "roll"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:behavior.roll"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "roll_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "roll"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:behavior.roll"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "snacking_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "snacking"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:behavior.snacking"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "snacking_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "snacking"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:behavior.snacking"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "sneeze_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "sneeze"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:behavior.sneeze"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "sneeze_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "sneeze"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:behavior.sneeze"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "track_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "track"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:attack"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "track_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "track"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:attack"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "worried_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "worried"
+									},
+									{
+										"operator": "not",
+										"test": "is_variant",
+										"value": 2
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "worried_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "worried"
+									},
+									{
+										"test": "is_variant",
+										"value": 2
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			"is_baby": {
+				"minecraft:is_baby": {
+				},
+				"minecraft:scale": {
+					"value": 0.4
+				}
+			},
+			"lay_down": {
+				"minecraft:behavior.lay_down": {
+					"interval": 400,
+					"priority": 8,
+					"random_stop_interval": 2000
+				}
+			},
+			"lazy": {
+				"minecraft:variant": {
+					"value": 1
+				}
+			},
+			"movement": {
+				"minecraft:behavior.float": {
+					"priority": 2
+				},
+				"minecraft:can_climb": {
+				},
+				"minecraft:jump.static": {
+				},
+				"minecraft:movement": {
+					"value": 0.25
+				},
+				"minecraft:movement.basic": {
+				},
+				"minecraft:navigation.walk": {
+					"avoid_damage_blocks": true,
+					"avoid_water": true,
+					"can_float": true
+				},
+				"minecraft:water_movement": {
+					"drag_factor": 0.98
+				}
+			},
+			"normal": {
+				"minecraft:variant": {
+					"value": 0
+				}
+			},
+			"playful": {
+				"minecraft:variant": {
+					"value": 3
+				}
+			},
+			"random_sitting": {
+				"minecraft:behavior.random_sitting": {
+					"cooldown": 25,
+					"min_sit_time": 15,
+					"priority": 7,
+					"start_chance": 0.02,
+					"stop_chance": 0.2
+				}
+			},
+			"random_stroll": {
+				"minecraft:behavior.random_stroll": {
+					"priority": 6,
+					"speed_multiplier": 0.8,
+					"xz_dist": 3
+				}
+			},
+			"roll": {
+				"minecraft:behavior.roll": {
+					"priority": 9,
+					"probability": 0.013
+				}
+			},
+			"snacking": {
+				"minecraft:behavior.snacking": {
+					"items": [
+						"bamboo",
+						"cake"
+					],
+					"priority": 4,
+					"snacking_cooldown": 0.0,
+					"snacking_cooldown_min": 0.0,
+					"snacking_stop_chance": 0.0
+				}
+			},
+			"sneeze": {
+				"minecraft:behavior.sneeze": {
+					"cooldown_time": 1.0,
+					"prepare_sound": "presneeze",
+					"prepare_time": 1.0,
+					"priority": 3,
+					"probability": 0.01,
+					"sound": "sneeze"
+				}
+			},
+			"track": {
+				"minecraft:attack": {
+					"damage": 0
+				},
+				"minecraft:behavior.melee_attack": {
+					"priority": 0,
+					"reach_multiplier": 1.0,
+					"target_dist": 1.2,
+					"track_target": true
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"attack_interval": 1,
+					"entity_types": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "target"
+									}
+								]
+							},
+							"max_dist": 100
+						}
+					],
+					"must_see": false,
+					"priority": 1,
+					"reselect_targets": true
+				},
+				"minecraft:follow_range": {
+					"max": 100,
+					"value": 100
+				}
+			},
+			"worried": {
+				"minecraft:variant": {
+					"value": 2
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"default",
+						"environment_sensor",
+						"normal"
+					]
+				}
+			},
+			"default": {
+				"add": {
+					"component_groups": [
+						"default",
+						"environment_sensor"
+					]
+				}
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"is_baby_add": {
+				"add": {
+					"component_groups": [
+						"is_baby"
+					]
+				}
+			},
+			"is_baby_remove": {
+				"remove": {
+					"component_groups": [
+						"is_baby"
+					]
+				}
+			},
+			"lay_down_add": {
+				"add": {
+					"component_groups": [
+						"lay_down"
+					]
+				}
+			},
+			"lay_down_remove": {
+				"remove": {
+					"component_groups": [
+						"lay_down"
+					]
+				}
+			},
+			"lazy_add": {
+				"remove": {
+					"component_groups": [
+						"normal"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"lazy"
+					]
+				}
+			},
+			"lazy_remove": {
+				"remove": {
+					"component_groups": [
+						"lazy"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"normal"
+					]
+				}
+			},
+			"movement_add": {
+				"add": {
+					"component_groups": [
+						"movement"
+					]
+				}
+			},
+			"movement_remove": {
+				"remove": {
+					"component_groups": [
+						"movement"
+					]
+				}
+			},
+			"playful_add": {
+				"remove": {
+					"component_groups": [
+						"normal"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"playful"
+					]
+				}
+			},
+			"playful_remove": {
+				"remove": {
+					"component_groups": [
+						"playful"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"normal"
+					]
+				}
+			},
+			"random_sitting_add": {
+				"add": {
+					"component_groups": [
+						"random_sitting"
+					]
+				}
+			},
+			"random_sitting_remove": {
+				"remove": {
+					"component_groups": [
+						"random_sitting"
+					]
+				}
+			},
+			"random_stroll_add": {
+				"add": {
+					"component_groups": [
+						"random_stroll"
+					]
+				}
+			},
+			"random_stroll_remove": {
+				"remove": {
+					"component_groups": [
+						"random_stroll"
+					]
+				}
+			},
+			"roll_add": {
+				"add": {
+					"component_groups": [
+						"roll"
+					]
+				}
+			},
+			"roll_remove": {
+				"remove": {
+					"component_groups": [
+						"roll"
+					]
+				}
+			},
+			"snacking_add": {
+				"add": {
+					"component_groups": [
+						"snacking"
+					]
+				}
+			},
+			"snacking_remove": {
+				"remove": {
+					"component_groups": [
+						"snacking"
+					]
+				}
+			},
+			"sneeze_add": {
+				"add": {
+					"component_groups": [
+						"sneeze"
+					]
+				}
+			},
+			"sneeze_remove": {
+				"remove": {
+					"component_groups": [
+						"sneeze"
+					]
+				}
+			},
+			"track_add": {
+				"add": {
+					"component_groups": [
+						"track"
+					]
+				}
+			},
+			"track_remove": {
+				"remove": {
+					"component_groups": [
+						"track"
+					]
+				}
+			},
+			"worried_add": {
+				"remove": {
+					"component_groups": [
+						"normal"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"worried"
+					]
+				}
+			},
+			"worried_remove": {
+				"remove": {
+					"component_groups": [
+						"worried"
+					]
+				},
+				"add": {
+					"component_groups": [
+						"normal"
+					]
+				}
+			}
+		}
+	}
+}

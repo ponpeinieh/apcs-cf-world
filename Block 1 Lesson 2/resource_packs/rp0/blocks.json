@@ -1,0 +1,23 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"stone_slab2": {
+		"blockshape": "invisible"
+	},
+	"obsidian": {
+		"isotropic": false,
+		"textures": {
+			"up": "stripped_jungle_log_side",
+			"down": "stripped_jungle_log_side",
+			"north": "stripped_jungle_log_side",
+			"south": "stripped_jungle_log_side",
+			"west": "stripped_jungle_log_top",
+			"east": "stripped_jungle_log_top"			
+		},
+		"brightness_gamma": 5.0,
+		"sound": "wood"
+	}
+}

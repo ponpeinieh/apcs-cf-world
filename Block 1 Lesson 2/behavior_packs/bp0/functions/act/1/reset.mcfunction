@@ -1,0 +1,1 @@
+execute @a ~ ~ ~ teleport @c 143 76 175 180 0

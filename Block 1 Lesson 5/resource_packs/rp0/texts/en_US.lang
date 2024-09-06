@@ -1,0 +1,60 @@
+##
+## Block 1 Lesson 5
+## Copyright 2020 ReWrite Media, Inc
+##
+
+pack.name=Block 1 Lesson 5
+pack.description=Resources needed for Block 1 Lesson 5
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Barwin
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=Wolves are strong and fast hunters that can be found all across the globe. They're part of the §ocanine§r family which makes them the cousin of dogs!
+announcer.dialogue.2=Their biggest threat is clashing with humans. Sometimes while hunting for food wolves will come across cattle and other livestock. Farmers go through great measures to keep them away.
+announcer.dialogue.3=Go down and see if you could help the farmer keep the wolves away using peaceful means. I'll stay up here and monitor the §l§n§2Radio§r incase you need me.
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Interact with Dr. Barwin to begin.
+code.actionbar=Press "C" to code or touch the Agent icon.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=Those wolves behind the fence seem to want to make lunch of these chickens. Let's build this iron fence a little higher to make them less appetizing. 
+
+
+act.2.chat.1=Changing where livestock eat can make it harder for the wolves to find them. Use the Agent to lead the sheep into another pasture. 
+
+
+act.3.chat.1=Setting up traps that make loud noises is a great way to scare them off. Connect a wire between the two bells so it will ring if a wolf passes through.
+
+
+act.4.chat.1=Wolves love cover. If we clear up this final patch of grass, we'll be seeing the last of those wolves.
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"log_side": {
+			"textures": [
+				"textures/blocks/log_oak",
+				"textures/blocks/turtle_tracksa",
+				"textures/blocks/turtle_tracksb",
+				"textures/blocks/log_jungle"
+			]
+		},
+		"log_top": {
+			"textures": [
+				"textures/blocks/log_oak_top",
+				"textures/blocks/turtle_tracksa",
+				"textures/blocks/turtle_tracksb",
+				"textures/blocks/log_jungle_top"
+			]
+		},
+		"black_glazed_terracotta": {
+			"textures": "textures/blocks/corner_tracksa"
+		},
+		"blue_glazed_terracotta": {
+			"textures": "textures/blocks/corner_tracksb"
+		},
+		"bedrock": {
+			"textures": "textures/blocks/trash_gravel"
+		}
+	}
+}

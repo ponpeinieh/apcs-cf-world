@@ -1,0 +1,454 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "minecraft:wolf",
+			"is_summonable": true
+		},
+		"components": {
+		},
+		"component_groups": {
+			"angry": {
+				"minecraft:angry": {
+				}
+			},
+			"avoid": {
+				"minecraft:behavior.avoid_mob_type": {
+					"priority": 1,
+					"entity_types": [
+						{
+							"filters": {
+								"test": "is_family",
+								"subject": "other",
+								"value": "player"
+							},
+							"max_dist": 10,
+							"must_see": false,
+							"walk_speed_multiplier": 0.8,
+							"sprint_speed_multiplier": 1.75
+						}
+					],
+					"ignore_visibility": true,
+					"max_dist": 16,
+					"max_flee": 16
+				}
+			},
+			"default": {
+				"minecraft:breathable": {
+					"suffocateTime": 0,
+					"totalSupply": 15
+				},
+				"minecraft:collision_box": {
+					"height": 0.8,
+					"width": 0.6
+				},
+				"minecraft:damage_sensor": [
+					{
+						"on_damage": {
+						},
+						"deals_damage": false
+					}
+				],
+				"minecraft:health": {
+					"max": 8,
+					"value": 8
+				},
+				"minecraft:persistent": {
+				},
+				"minecraft:physics": {
+				},
+				"minecraft:pushable": {
+					"is_pushable": false,
+					"is_pushable_by_piston": false
+				},
+				"minecraft:type_family": {
+					"family": [
+						"wolf"
+					]
+				}
+			},
+			"despawn": {
+				"minecraft:despawn": {
+				}
+			},
+			"environment_sensor": {
+				"minecraft:environment_sensor": [
+					{
+						"on_environment": {
+							"event": "angry_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "angry"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:angry"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "angry_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "angry"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:angry"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "avoid_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "avoid"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:behavior.avoid_mob_type"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "avoid_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "avoid"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:behavior.avoid_mob_type"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "despawn",
+							"filters": {
+								"test": "has_tag",
+								"value": "despawn"
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "movement_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "movement"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:movement"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "movement_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "movement"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:movement"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "random_stroll_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "random_stroll"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:behavior.random_stroll"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "random_stroll_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "random_stroll"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:behavior.random_stroll"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "track_add",
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"value": "track"
+									},
+									{
+										"operator": "not",
+										"test": "has_component",
+										"value": "minecraft:attack"
+									}
+								]
+							}
+						}
+					},
+					{
+						"on_environment": {
+							"event": "track_remove",
+							"filters": {
+								"all_of": [
+									{
+										"operator": "not",
+										"test": "has_tag",
+										"value": "track"
+									},
+									{
+										"test": "has_component",
+										"value": "minecraft:attack"
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			"movement": {
+				"minecraft:behavior.float": {
+					"priority": 2
+				},
+				"minecraft:can_climb": {
+				},
+				"minecraft:jump.static": {
+				},
+				"minecraft:movement": {
+					"value": 0.3
+				},
+				"minecraft:movement.basic": {
+				},
+				"minecraft:navigation.walk": {
+					"avoid_damage_blocks": true,
+					"can_path_over_water": true
+				}
+			},
+			"random_stroll": {
+				"minecraft:behavior.random_stroll": {
+					"priority": 6,
+					"speed_multiplier": 0.8,
+					"xz_dist": 5
+				}
+			},
+			"track": {
+				"minecraft:attack": {
+					"damage": 0
+				},
+				"minecraft:behavior.nearest_attackable_target": {
+					"attack_interval": 1,
+					"entity_types": [
+						{
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_family",
+										"subject": "other",
+										"value": "target"
+									}
+								]
+							},
+							"max_dist": 100
+						}
+					],
+					"must_see": false,
+					"priority": 1,
+					"reselect_targets": true
+				},
+				"minecraft:follow_range": {
+					"max": 100,
+					"value": 100
+				},
+				"minecraft:target_nearby_sensor": {
+					"inside_range": 1.0,
+					"outside_range": 8.0,
+					"must_see": false,
+					"on_inside_range": {
+						"event": "tracking_remove",
+						"target": "self"
+					},
+					"on_outside_range": {
+						"event": "tracking_add",
+						"target": "self"
+					}
+				}
+			},
+			"tracking": {
+				"minecraft:behavior.melee_attack": {
+					"priority": 0,
+					"reach_multiplier": 1.0,
+					"speed_multiplier": 1.15,
+					"target_dist": 1.2,
+					"track_target": true
+				}
+			}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"default",
+						"environment_sensor"
+					]
+				}
+			},
+			"angry_add": {
+				"add": {
+					"component_groups": [
+						"angry"
+					]
+				}
+			},
+			"angry_remove": {
+				"remove": {
+					"component_groups": [
+						"angry"
+					]
+				}
+			},
+			"avoid_add": {
+				"add": {
+					"component_groups": [
+						"avoid"
+					]
+				}
+			},
+			"avoid_remove": {
+				"remove": {
+					"component_groups": [
+						"avoid"
+					]
+				}
+			},
+			"default": {
+				"add": {
+					"component_groups": [
+						"default",
+						"environment_sensor"
+					]
+				}
+			},
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"movement_add": {
+				"add": {
+					"component_groups": [
+						"movement"
+					]
+				}
+			},
+			"movement_remove": {
+				"remove": {
+					"component_groups": [
+						"movement"
+					]
+				}
+			},
+			"random_stroll_add": {
+				"add": {
+					"component_groups": [
+						"random_stroll"
+					]
+				}
+			},
+			"random_stroll_remove": {
+				"remove": {
+					"component_groups": [
+						"random_stroll"
+					]
+				}
+			},
+			"track_add": {
+				"add": {
+					"component_groups": [
+						"track"
+					]
+				}
+			},
+			"track_remove": {
+				"remove": {
+					"component_groups": [
+						"track"
+					]
+				}
+			},
+			"tracking_add": {
+				"add": {
+					"component_groups": [
+						"tracking"
+					]
+				}
+			},
+			"tracking_remove": {
+				"remove": {
+					"component_groups": [
+						"tracking"
+					]
+				}
+			}
+		}
+	}
+}

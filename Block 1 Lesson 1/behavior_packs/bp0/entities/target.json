@@ -1,0 +1,75 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pws:target",
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:breathable": {
+				"breathesWater": true,
+				"breathesLava": true,
+				"breathesSolids": true
+			},
+			"minecraft:collision_box": {
+				"width": 0.0,
+				"height": 0.0
+			},
+			"minecraft:damage_sensor":[
+				{
+					"on_damage":{
+					},
+					"deals_damage":false
+				}
+			],
+			"minecraft:type_family": {
+				"family": [
+					"target"
+				]
+			},
+			"minecraft:movement":{  
+				"value":0.0
+			},
+			"minecraft:navigation.float":{
+				"can_float":true
+			},
+			"minecraft:physics": {
+				"has_collision": false
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:push_through": {
+				"value": 1.0
+			},
+			"minecraft:scale": {
+				"value": 0.0
+			},
+			"minecraft:environment_sensor": [
+				{
+					"on_environment": {
+						"filters": {
+							"test": "has_tag",
+							"value": "delete"
+						},
+						"event": "pws:set_delete"
+					}
+				}
+			]
+		},
+		"events":{
+			"pws:set_delete": {
+				"add": {
+					"component_groups": [ "pws:delete" ]
+				}
+			}
+		},
+		"component_groups": {
+			"pws:delete": {
+				"minecraft:despawn": {
+				}
+			}
+		}
+	}
+}

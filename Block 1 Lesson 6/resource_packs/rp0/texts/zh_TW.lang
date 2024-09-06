@@ -1,0 +1,63 @@
+## Block 1 第6課
+## 版權 2020 ReWrite Media, Inc
+##
+
+pack.name=Block 1 第6課
+pack.description=Block 1 第6課所需資源
+
+##	通用
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=巴爾溫博士
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=現在是時候讓你開始更有創意地編寫程式了！
+announcer.dialogue.2=使用我背後的按鈕選擇你想要工作的環境。每個生物群系裡都有5個目標供你完成，並且有足夠的空間讓你嘗試自己的程式碼。
+announcer.dialogue.3=一起合作完成所有目標吧！隨時可以合作創建你自己的目標！一旦你選擇了要去的生物群系，點擊下方的§l我準備好了§r按鈕來傳送到那裡。
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+##	{"rawtext":[{"text":"\n"},{"translate":"lobby.sign.dec"}]}
+lobby.sign.dec=上一個生物群系
+##	{"rawtext":[{"text":"\n"},{"translate":"lobby.sign.inc"}]}
+lobby.sign.inc=下一個生物群系
+
+lobby.actionbar=右鍵點擊巴爾溫博士以開始。
+code.actionbar=按下 "C" 來編程。
+
+## {"rawtext":[{"translate":"chalkboard.line.1"},{"text":"\n\n"},{"translate":"chalkboard.line.3"},{"text":"\n"},{"translate":"chalkboard.line.4"},{"text":"\n"},{"translate":"chalkboard.line.5"},{"text":"\n"},{"translate":"chalkboard.line.6"},{"text":"\n"},{"translate":"chalkboard.line.7"},{"text":"\n"},{"translate":"chalkboard.line.8"}]}
+##	黑板
+chalkboard.line.1=在這個區域裡，你會看到各個燈柱標記的預設目標。完成這些目標，並嘗試創建自訂程式碼！按下§lC§r召喚代理後，你可以使用§l§n收音機§r來傳送代理到你的所在地。使用下方按鈕重置區域並返回飛艇。
+chalkboard.line.3=目標：
+chalkboard.line.4=1. 搭建一座橋。
+chalkboard.line.5=2. 完成迷宮。
+chalkboard.line.6=3. 清理垃圾。
+chalkboard.line.7=4. 建立一個圍欄。
+chalkboard.line.8=5. 建造一座塔。
+
+act.title.warning=退出生物群系
+act.subtitle.warning=再次按下按鈕確認。
+
+act.title.cooldown=退出冷卻中
+act.subtitle.cooldown=請等待30秒。
+
+act.title.return=加載中...
+act.subtitle.return=我們正在傳送你，請稍候。
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=移動代理
+
+radio.title.warning=移動代理
+radio.subtitle.warning=再次使用確認。
+radio.title.reset=代理已移動
+
+radio.intro=*收音機雜音*
+
+##	行動
+
+act.1.chat.1=歡迎！請閱讀黑板以了解可用的目標和指示！
