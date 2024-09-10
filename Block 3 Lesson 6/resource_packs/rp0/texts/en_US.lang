@@ -1,0 +1,50 @@
+##
+## Block 3 Lesson 6
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 Lesson 6
+pack.description=Resources needed for Block 3 Lesson 6
+
+##	Overrides
+container.hopper=Material Digitizer
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Rubin
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"}]}
+announcer.act.1.dialogue.1=We over-shot it by a bit. I won't say when you are, we don't want to cause any time paradoxes but let's just say watch out for flying cars.
+announcer.act.1.dialogue.2=We think we have the problem worked out. If my calculations are correct we just need to feed the portal some beets and we'll be back in business. Why beets? Because they are packed with essential nutrients of course!
+announcer.act.1.dialogue.3=We'll need a lot of them. Luckily, we ended up on a roof-top farm. Let's teach the Agent how to farm them. I'm sending you some seeds. Right-click the Agent and put them in its inventory.
+
+## {"rawtext":[{"translate":"generic.loading"}]}
+generic.loading=Resetting World...
+## {"rawtext":[{"translate":"generic.loading.done"}]}
+generic.loading.done=Reset Complete
+
+##	Chalkboard
+## {"rawtext":[{"translate":"chalkboard.line.0"},{"text":"\n"},{"translate":"chalkboard.line.1"},{"text":"\n"},{"translate":"chalkboard.line.2"},{"text":"\n"},{"translate":"chalkboard.line.3"},{"text":"\n"},{"translate":"chalkboard.line.4"},{"text":"\n"},{"translate":"chalkboard.line.5"},{"text":"\n"},{"translate":"chalkboard.line.6"},{"text":"\n"},{"translate":"chalkboard.line.7"},{"text":"\n"},{"translate":"chalkboard.line.8"},{"text":"\n"},{"translate":"chalkboard.line.9"},{"text":"\n"},{"translate":"chalkboard.line.10"}]}
+chalkboard.line.0=Now it's time for you to use all the coding concepts you've learned in order to create your own story!
+chalkboard.line.1=§r
+chalkboard.line.2=You could make one large activity that encompasses everything, or multiple smaller ones.
+chalkboard.line.3=§r
+chalkboard.line.4=The following must be used to solve your activities:
+chalkboard.line.5=    - Loops
+chalkboard.line.6=    - Conditionals
+chalkboard.line.7=    - Operators
+chalkboard.line.8=    - Variables
+chalkboard.line.9=§r
+chalkboard.line.10=You're in creative mode which means you can fly and have full access to the creative inventory. Use the button next to this sign to reset the area.
+
+## {"rawtext":[{"text":"§6"},{"translate":"sign.reset.0"},{"text":"\n§6"},{"translate":"sign.reset.1"},{"text":"\n§6"},{"translate":"sign.reset.2"}]}
+sign.reset.0=Press the button
+sign.reset.1=below to reset
+sign.reset.2=the area.
+
+
+act.title.cooldown=Reset Cooldown
+act.subtitle.cooldown=Please wait 30 seconds.
+act.title.warning=Reset Area
+act.subtitle.warning=Press button again to confirm.

@@ -1,0 +1,79 @@
+#
+## Block 3 第五課
+## 版權 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 第五課
+pack.description=Block 3 第五課所需資源
+
+##	Overrides
+container.hopper=物質數位化器
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=魯賓博士
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"}]}
+announcer.act.1.dialogue.1=我們有點偏離了。我不會告訴你現在是什麼時間，因為我們不想引發時間悖論，只能說要小心飛行汽車。
+announcer.act.1.dialogue.2=我們認為已經解決了問題。如果我的計算正確，我們只需要給傳送門一些甜菜，就能回到正常狀態。為什麼是甜菜？因為它們富含必要的營養，當然！
+announcer.act.1.dialogue.3=我們需要很多甜菜。幸運的是，我們來到了一個屋頂農場。讓我們教代理如何種植甜菜。我會發一些種子給你。右鍵點擊代理，將種子放入它的庫存中。
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"}]}
+announcer.act.2.dialogue.1=幹得好！現在代理學會了基本操作，讓我們教它如何種植一行種子。
+announcer.act.2.dialogue.2=你不需要再告訴代理如何種植種子了。它已經知道了。只需讓代理將這整行種子填滿。
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"}]}
+announcer.act.3.dialogue.1=一行甜菜遠遠不夠！讓我們教代理如何種植多行。
+announcer.act.3.dialogue.2=訓練代理當到達特定方塊時轉彎。
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"}]}
+announcer.act.4.dialogue.1=現在你已經教會了代理如何種植大面積的種子，讓我們開始種植這些甜菜吧！
+announcer.act.4.dialogue.2=這片區域看起來很適合開始。把這片泥土區域填滿甜菜。一旦它們長出來，我們就能離開這裡！
+
+##	{"rawtext":[{"translate":"announcer.act.5.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.3"}]}
+announcer.act.5.dialogue.1=哇，花了這麼久，甜菜都已經長大了！
+announcer.act.5.dialogue.2=收穫至少 23 顆甜菜，然後右鍵點擊物質數位化儀，將甜菜放入其中。
+announcer.act.5.dialogue.3=你可以手動左鍵點擊作物來收穫，或者想要額外獎勵的話，可以編程代理來收穫。修改你之前的代碼，或者寫新的代碼！
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+lobby.actionbar=通過時間傳送門。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=重置活動
+
+radio.title.warning=確認重置
+radio.subtitle.warning=再次使用以確認。
+radio.title.reset=活動重置
+radio.title.proceed=活動完成。
+radio.subtitle.proceed=進行下一個活動。
+
+radio.intro=*收音機雜音*
+
+code.actionbar=按 "C" 開始編程。
+
+##	Acts
+
+act.1.actionbar.1=退出時間傳送門。
+act.1.actionbar.2=與魯賓博士的全息圖對話。
+act.1.actionbar.3=穿過門。
+
+act.2.actionbar.1=穿過門。
+act.2.actionbar.2=與魯賓博士的全息圖對話。
+
+act.3.actionbar.1=穿過門。
+act.3.actionbar.2=與魯賓博士的全息圖對話。
+act.3.actionbar.3=沿著路徑進入下一個圓頂。
+
+act.4.actionbar.1=沿著路徑進入下一個圓頂。
+act.4.actionbar.2=與魯賓博士的全息圖對話。
+act.4.actionbar.3=將甜菜放入數位化儀。

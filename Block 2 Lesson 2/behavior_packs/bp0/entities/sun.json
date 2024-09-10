@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pws:sun",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:push_through": {
+				 "value": true
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:scale":{
+				"value": 8
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:movement": {
+				"value": 0.0
+			},
+			"minecraft:health":{
+				"value": 3000,
+				"max": 3000
+			},
+			"minecraft:collision_box": {
+				"width": 0.001,
+				"height": 0.001
+			},
+			"minecraft:physics":{
+				"has_gravity": false
+			}
+		}
+	}
+}

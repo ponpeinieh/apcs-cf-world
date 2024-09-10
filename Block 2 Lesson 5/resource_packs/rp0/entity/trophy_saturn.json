@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:trophy_saturn",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.trophy_multi"
+			},
+			"textures": {
+				"default": "textures/entity/trophy/trophy_saturn"
+			},
+			"materials": {
+				"default": "translucent"
+			},
+			"animations": {
+				"spin":"animation.trophy_multi.spin"
+			},
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			}
+		}
+	}
+}

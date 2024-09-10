@@ -1,0 +1,31 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+    	"stained_glass": {
+    		"textures": [
+				"textures/blocks/white_transparent",
+				"textures/blocks/glass_orange",
+				"textures/blocks/glass_magenta",
+				"textures/blocks/light_blue_transparent",
+				"textures/blocks/glass_yellow",
+				"textures/blocks/glass_lime",
+				"textures/blocks/glass_pink",
+				"textures/blocks/glass_gray",
+				"textures/blocks/glass_silver",
+				"textures/blocks/glass_cyan",
+				"textures/blocks/glass_purple",
+				"textures/blocks/glass_blue",
+				"textures/blocks/glass_brown",
+				"textures/blocks/glass_green",
+				"textures/blocks/glass_red",
+				"textures/blocks/glass_black"
+			]
+		},
+	    "end_rod": {
+	      "textures": "textures/blocks/end_rod_custom"
+	    }
+	}
+}

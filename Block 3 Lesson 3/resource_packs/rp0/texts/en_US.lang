@@ -1,0 +1,87 @@
+##
+## Block 3 Lesson 3
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 Lesson 3
+pack.description=Resources needed for Block 3 Lesson 3
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Rubin
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.4"}]}
+announcer.act.1.dialogue.1=The good news is that there are no dinosaurs; the bad news is that we're in Rome at about 70 C.E.
+announcer.act.1.dialogue.2=It looks like we made it just in time for them to start building the Colosseum. Why don't you see if you could lend a hand while we try to locate the time gate?
+announcer.act.1.dialogue.3=Mining the material used was a lot of manual labor, so let's see if we could make it more efficient. Create an app that will calculate how many blocks you need and make it notify you when you've mined that many blocks.
+announcer.act.1.dialogue.4=The pillars go in the areas marked with yellow and black blocks. Follow the dirt path to gather the materials needed.
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=We're detecting a faint signal coming from the time gate. We're going to need help boosting the signal to locate it. Even though we can't bring you back to our time, we think we could send an Agent to come and assist. 
+announcer.act.2.dialogue.2=While we locate the portal, use the Agent to help complete these aqueducts. When done, flip the lever to turn on the water. Once the aqueduct is properly flowing to the reservoir, the gate next to the lever will open.
+announcer.act.2.dialogue.3=We'll send you some resources to build supports for the aqueducts once you have the water flowing.
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
+announcer.act.3.dialogue.1=The floor of this reservoir is a bit plain. Let's build an ornate border around the pool to give it a bit of flair. 
+announcer.act.3.dialogue.2=Once you've replaced all the blocks, water should start flowing into the pool and the gate to the Colosseum floor on the other side of the room will open.
+announcer.act.3.dialogue.3=Head up that way to get to the time portal.
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
+announcer.act.4.dialogue.1=You've found the portal! 
+announcer.act.4.dialogue.2=This time we're sure you'll make it back to us. We reset the time distortion frequency by rotating the actuator 13 degrees clockwise.
+announcer.act.4.dialogue.3=Err... We turned the knobs a bit. 
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Go through the time portal.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+code.actionbar=Press "C" to begin coding.
+
+##	{"rawtext":[{"translate":"sign.water.on.1"},{"text":"\n"},{"translate":"sign.water.on.2"},{"text":"\n"},{"translate":"sign.water.on.3"},{"text":"\n"},{"translate":"sign.water.on.4"}]}
+sign.water.on.1=§r
+sign.water.on.2=§1§lWater
+sign.water.on.3=§6§l[§2§lFLOWING§6§l]
+sign.water.on.4=§r
+
+##	{"rawtext":[{"translate":"sign.water.off.1"},{"text":"\n"},{"translate":"sign.water.off.2"},{"text":"\n"},{"translate":"sign.water.off.3"},{"text":"\n"},{"translate":"sign.water.off.4"}]}
+sign.water.off.1=§r
+sign.water.off.2=§1§lWater
+sign.water.off.3=§6§l[§4§lSTOPPED§6§l]
+sign.water.off.4=§r
+
+##	Acts
+
+act.1.actionbar.1=Exit the time portal.
+act.1.actionbar.2=Talk with the Dr. Rubin hologram.
+act.1.actionbar.3=Go through the gate.
+
+act.2.actionbar.1=Go through the gate.
+act.2.actionbar.2=Talk with the Dr. Rubin hologram.
+act.2.actionbar.3=Build some supports and then go down the stairs.
+
+act.3.actionbar.1=Go down the stairs.
+act.3.actionbar.2=Talk with the Dr. Rubin hologram.
+act.3.actionbar.3=Go through the gate.
+
+act.4.actionbar.1=Go up the stairs and explore the area.
+act.4.actionbar.2=Talk with the Dr. Rubin hologram.

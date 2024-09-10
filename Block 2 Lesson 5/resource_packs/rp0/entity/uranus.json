@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:uranus",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.uranus"
+			},
+			"textures": {
+				"default": "textures/entity/planet/uranus"
+			},
+			"materials": {
+				"default": "transparent"
+			},
+			"animations": {
+				"spin":"animation.uranus.rotate"
+			},
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			}
+		}
+	}
+}

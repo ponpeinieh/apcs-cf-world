@@ -1,0 +1,49 @@
+##
+## Block 3 Lesson 6
+## 版權所有 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 第6課
+pack.description=Block 3 第6課所需資源
+
+##	Overrides
+container.hopper=物質數位化器
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=魯賓博士
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"}]}
+announcer.act.1.dialogue.1=我們有點超越了目標。我不會告訴你我們現在在哪裡，我們不想引發任何時間悖論，只能說小心飛車吧。
+announcer.act.1.dialogue.2=我們認為已經解決了問題。如果我的計算沒錯，我們只需要給傳送門一些甜菜，我們就能重新啟動了。為什麼是甜菜？因為它們富含必需的營養成分，當然了！
+announcer.act.1.dialogue.3=我們需要大量的甜菜。幸運的是，我們降落在了一個屋頂農場。讓我們教代理如何耕種甜菜。我會寄送一些種子給你。右鍵點擊代理並將它們放入其物品欄。
+
+## {"rawtext":[{"translate":"generic.loading"}]}
+generic.loading=重置世界中...
+## {"rawtext":[{"translate":"generic.loading.done"}]}
+generic.loading.done=重置完成
+
+##	黑板
+## {"rawtext":[{"translate":"chalkboard.line.0"},{"text":"\n"},{"translate":"chalkboard.line.1"},{"text":"\n"},{"translate":"chalkboard.line.2"},{"text":"\n"},{"translate":"chalkboard.line.3"},{"text":"\n"},{"translate":"chalkboard.line.4"},{"text":"\n"},{"translate":"chalkboard.line.5"},{"text":"\n"},{"translate":"chalkboard.line.6"},{"text":"\n"},{"translate":"chalkboard.line.7"},{"text":"\n"},{"translate":"chalkboard.line.8"},{"text":"\n"},{"translate":"chalkboard.line.9"},{"text":"\n"},{"translate":"chalkboard.line.10"}]}
+chalkboard.line.0=現在是時候使用你所學到的所有編程概念來創建自己的故事了！
+chalkboard.line.1=§r
+chalkboard.line.2=你可以創建一個涵蓋所有內容的大型活動，或是多個小型活動。
+chalkboard.line.3=§r
+chalkboard.line.4=解決活動時必須使用以下內容：
+chalkboard.line.5=    - 迴圈
+chalkboard.line.6=    - 條件語句
+chalkboard.line.7=    - 運算符
+chalkboard.line.8=    - 變量
+chalkboard.line.9=§r
+chalkboard.line.10=你現在處於創造模式，可以飛行並完全訪問創造物品庫。使用標誌旁的按鈕來重置區域。
+
+## {"rawtext":[{"text":"§6"},{"translate":"sign.reset.0"},{"text":"\n§6"},{"translate":"sign.reset.1"},{"text":"\n§6"},{"translate":"sign.reset.2"}]}
+sign.reset.0=按下按鈕
+sign.reset.1=以下以重置
+sign.reset.2=此區域。
+
+act.title.cooldown=重置冷卻
+act.subtitle.cooldown=請等待30秒。
+act.title.warning=重置區域
+act.subtitle.warning=再次按下按鈕確認。

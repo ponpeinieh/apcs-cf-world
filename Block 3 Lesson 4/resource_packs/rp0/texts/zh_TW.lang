@@ -1,0 +1,71 @@
+##
+## Block 3 Lesson 4
+## 版權 2020 ReWrite Media, Inc.
+##
+
+pack.name=第三章 第四課
+pack.description=第三章 第四課所需的資源
+
+##	通用
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=魯賓博士
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"}]}
+announcer.act.1.dialogue.1=這次我們更近了！我確定下次通過傳送門時，我們就能回家。還能去哪呢？
+announcer.act.1.dialogue.2=歡迎來到大約1850年的美國西部邊境。淘金熱正在如火如荼地進行，小型礦鎮正如雨後春筍般出現在西部各地。
+announcer.act.1.dialogue.3=在我們尋找傳送門的同時，為什麼不幫助這些礦工清理一下那片區域呢？他們進不去，但我敢打賭你的代理可以。你可能需要手動控制它。
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=讓我們幫助他們稍微擴建這個小鎮。有兩棟新房子需要建造，幫助他們建造牆壁。
+announcer.act.2.dialogue.2=長度和寬度應與黃黑標記的尺寸一致。左邊的房子應該高三個方塊，右邊的應該高五個方塊。
+announcer.act.2.dialogue.3=一旦牆壁建好，工人們就可以來完成房子的建設。
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
+announcer.act.3.dialogue.1=他們需要開始建設市政廳，我們可以幫助這個項目。
+announcer.act.3.dialogue.2=它不像我們建的房子那樣是個正方形。這次你需要指定長度和寬度，並且牆壁需要高五個方塊。
+announcer.act.3.dialogue.3=當你完成這項工作時，我們會找到時空傳送門的位置。
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
+announcer.act.4.dialogue.1=我們剛收到一個訊號，似乎傳送門出現在...市政廳內？
+announcer.act.4.dialogue.2=用這個稿子打破你剛剛建造的牆壁。傳送門應該在裡面。
+announcer.act.4.dialogue.3=快點！今晚是電影之夜，我幫你留了沙發上的一個座位！
+
+##	執行 @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+lobby.actionbar=通過時空傳送門。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=重設活動
+
+radio.title.warning=確認重設
+radio.subtitle.warning=再次使用以確認。
+radio.title.reset=活動重設
+radio.title.proceed=活動完成
+radio.subtitle.proceed=繼續下一個活動
+
+radio.intro=*收音機靜電*
+
+code.actionbar=按 "C" 開始編碼。
+
+##	行動
+
+act.1.actionbar.1=離開時空傳送門。
+act.1.actionbar.2=與魯賓博士的全息影像對話。
+act.1.actionbar.3=穿過礦井並通過大門。
+
+act.2.chat.1=幹得好！現在建造下一組牆壁。
+act.2.actionbar.1=通過大門。
+act.2.actionbar.2=與魯賓博士的全息影像對話。
+
+act.3.actionbar.1=通過大門。
+act.3.actionbar.2=與魯賓博士的全息影像對話。
+act.3.actionbar.3=打破牆壁並進入內部。

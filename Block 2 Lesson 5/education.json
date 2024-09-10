@@ -1,0 +1,8 @@
+{
+    "codebuilder" : {
+        "defaulturi" : "https://minecraft.makecode.com/?ipc=1&inGame=1#tutorial:github:ponpeinieh/apcs-mc-makecode/no_coding"
+    },
+    "commands" : {
+        "hiddenFromPlayer" : ["*"]
+    }
+}

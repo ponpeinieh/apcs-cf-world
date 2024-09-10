@@ -1,0 +1,122 @@
+##
+## Block 2 Lesson 4
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 2 Lesson 4
+pack.description=Resources needed for Block 2 Lesson 4
+
+##	Overrides
+container.hopper=Material Digitizer
+
+##	Generics
+##	{"rawtext":[{"text":"\n"},{"translate":"trophy.sign.saturn.name"},{"text":"\n§1"},{"translate":"trophy.sign.saturn.material"}]}
+trophy.sign.mercury.name=Mercury
+trophy.sign.mercury.material=Ice
+trophy.sign.venus.name=Venus
+trophy.sign.venus.material=Iron
+trophy.sign.moon.name=Earth's Moon
+trophy.sign.moon.material=Stone
+trophy.sign.mars.name=Mars
+trophy.sign.mars.material=Red Sandstone
+trophy.sign.jupiter.name=Jupiter
+trophy.sign.jupiter.material=Rock
+trophy.sign.saturn.name=Saturn
+trophy.sign.saturn.material=Ores and Gems
+trophy.sign.uranus.name=Uranus
+
+trophy.sign.neptune.name=Neptune
+
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Comdr. Cadfield
+
+##	{"rawtext":[{"translate":"announcer.act.0.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.3"}]}
+announcer.act.0.dialogue.1=Ganymede is the largest moon in our solar system and the only moon that has its own magnetic field.
+announcer.act.0.dialogue.2=Most of the moon is made up of grooved terrain which forms intricate patterns on the surface. While mostly ice, it also has rocky areas sticking out. 
+announcer.act.0.dialogue.3=Go down and investigate those grooves and see if you could bring back samples of the rock. Radio me if you need help.
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=Now that you've retrieved the §1Rock§r, we'll need to digitize it and send it back to Earth for them to study.
+announcer.act.2.dialogue.2=To do that you'll first need to remove the §1Rock§r from the Agent's inventory. Walk up to the Agent and §oright-click§r it. §oLeft-click§r the block of §1Rock§r to pick it up, and then §oleft-click§r an empty slot in your inventory to put it down.
+announcer.act.2.dialogue.3=Now repeat that process with the Material Digitizer. It's the machine that has a moving blue light next to the Agent. Once you complete that, turn around and look at the holographic display. It should show the block you've just digitized.
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
+announcer.act.3.dialogue.1=Other planets might have rings, but none as visible as Saturn. Billions of small chunks of rock and ice come together to form them.
+announcer.act.3.dialogue.2=Scientists believe those rings are formed by comets, asteroids or even pieces of old moons that were caught and torn up by Saturn's strong gravitational pull.
+announcer.act.3.dialogue.3=I've identified an interesting spot within the rings. Go down and see what you could find. I'll be available over the Radio if you need help.
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
+announcer.act.4.dialogue.1=Now that you've retrieved the §1Ores and Gems§r, we'll need to digitize it and send it back to Earth for them to study.
+announcer.act.4.dialogue.2=To do that you'll first need to remove the §1Ores and Gems§r from the Agent's inventory. Walk up to the Agent and §oright-click§r it. §oLeft-click§r the block of Red Sandstone to pick it up, and then §oleft-click§r an empty slot in your inventory to put it down.
+announcer.act.4.dialogue.3=Now repeat that process with the Material Digitizer. It's the machine that has a moving blue light next to the Agent. Once you complete that, turn around and look at the holographic display. It should show the block you've just digitized.
+
+##	{"rawtext":[{"translate":"announcer.act.5.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.3"}]}
+announcer.act.5.dialogue.1=Great job on retrieving all the materials! 
+announcer.act.5.dialogue.2=You've earned time in the holographic simulator! Turn around and head through the door that just opened. It will simulate being on Ganymede and you'll be able to do whatever you want with your Agent. Give it a try!
+announcer.act.5.dialogue.3=While in the simulator your §l§n§2Radio§r will call your Agent over to you. Have fun and we'll talk when the next mission is ready!
+
+##	function generic/ready
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	function generic/not_ready
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Right-click Comdr. Cadfield to begin.
+code.actionbar=Press "C" to code.
+holodeck.actionbar=Enter the holographic simulator.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Reset
+radio.title.proceed=Reset Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=Let's follow this groove to see if we could find any of those rocky areas. Make sure to stay close to the wall so the Agent doesn't get stuck in the ice.
+
+
+act.2.chat.1=Now that we've found the rocky area, let's retrieve some of the rarer types. Don't leave any along your path. We want to get plenty of samples.
+
+
+act.2.reducer.chat.1=If you need help digitizing your block, come right-click me.
+
+
+act.3.chat.1=Figure out the pattern and collect all the material. Stop when you hit ice. 
+
+
+act.3.reducer.chat.1=If you need help digitizing your block, come right-click me.
+
+
+act.4.chat.1=What a find! Look at all those precious metals and gems we've found! See if you could figure out the pattern and collect them all! Stop when you reach the icy area, there won't be any more there.
+
+
+
+
+
+
+
+
+## Holodeck
+## {"rawtext":[{"translate":"holodeck.start"}]}
+holodeck.start=Loading Simulation...
+holodeck.entered=Simulation loaded!
+holodeck.cancel=Simulation Canceled
+
+## Hyperdrive
+hyperdrive.engage=Hyperdrive Engaged
+
+## Reducer actionbar
+## {"rawtext":[{"translate":"reducer.analyze"}]}
+reducer.analyze=Digitize the block your Agent collected.

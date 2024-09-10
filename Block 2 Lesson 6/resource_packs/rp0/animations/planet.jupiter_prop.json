@@ -1,0 +1,17 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jupiter_prop.rotate": {
+			"loop": true,
+			"animation_length": 60,
+			"bones": {
+				"planet": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"60.0": [0, -360, 0]
+					}
+				}
+			}
+		}
+	}
+}

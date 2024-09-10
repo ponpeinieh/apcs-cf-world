@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:neptune_prop",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.sun"
+			},
+			"textures": {
+				"default": "textures/entity/sun/neptune"
+			},
+			"materials": {
+				"default": "entity_emissive_alpha"
+			}
+		}
+	}
+}

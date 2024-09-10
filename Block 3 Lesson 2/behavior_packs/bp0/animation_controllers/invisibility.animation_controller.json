@@ -1,0 +1,26 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.invisible": {
+			"initial_state": "visible",
+			"states": {
+				"visible": {
+					"on_entry": [
+						"/tag @s remove invisible"
+					],
+					"transitions": [
+						{ "invisible": "query.is_sheared" }
+					]
+				},
+				"invisible": {
+					"on_entry": [
+						"/tag @s add invisible"
+					],
+					"transitions": [
+						{ "visible": "!query.is_sheared" }
+					]
+				}
+			}
+		}
+	}
+}

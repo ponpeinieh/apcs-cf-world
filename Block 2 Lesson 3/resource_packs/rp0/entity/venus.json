@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:venus",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.planet"
+			},
+			"textures": {
+				"default": "textures/entity/planet/venus"
+			},
+			"materials": {
+				"default": "transparent"
+			},
+			"animations": {
+				"spin":"animation.planet.rotate"
+			},
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			}
+		}
+	}
+}

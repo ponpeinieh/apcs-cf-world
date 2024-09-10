@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:digitizer",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.digitizer"
+			},
+			"textures": {
+				"default": "textures/entity/digitizer"
+			},
+			"materials": {
+				"default": "transparent"
+			},
+			"animations": {
+				"scan":"animation.digitizer.scan"
+			},
+			"scripts": {
+				"animate": [
+					"scan"
+				]
+			}
+		}
+	}
+}

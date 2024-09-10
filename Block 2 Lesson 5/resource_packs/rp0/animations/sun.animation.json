@@ -1,0 +1,13 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.sun.static": {
+			"loop": true,
+			"bones": {
+				"sun": {
+					"scale": [3.7, 3.7, 0.2]
+				}
+			}
+		}
+	}
+}

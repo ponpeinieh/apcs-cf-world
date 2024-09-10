@@ -1,0 +1,81 @@
+##
+## Block 3 Lesson 2
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 Lesson 2
+pack.description=Resources needed for Block 3 Lesson 2
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Rubin
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.4"}]}
+announcer.act.1.dialogue.1=Can you see me? Great. We were able to setup a two-way communications link between you and the nearest time portal. It seems something went wrong, and you ended up in pre-historic times.
+announcer.act.1.dialogue.2=Nothing to worry about. Just a little hiccup. All you have to do is get to the time portal, hop in, and you're good to go. Easy, right? Just head over to that temple, we've detected it's located there.
+announcer.act.1.dialogue.3=Oh, one more thing. There may or may not be a terrifyingly giant dinosaur right past that clearing. I suggest you sneak to become invisible. Just in case, of course.
+announcer.act.1.dialogue.4=While you cross, we'll try to pin point exactly where the portal is. I'll meet you over there.
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=This temple is a bit on the dark side and there's danger all around, but you're an explorer! I'm sure you'll make it through with ease!
+announcer.act.2.dialogue.2=You have plenty of powers at your disposal, use whatever ones you see fit. Some hazards will even have multiple paths you can take.
+announcer.act.2.dialogue.3=To begin, you can either climb the top half or try to take a swim through. I'll pop up throughout the temple to help guide you along.
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
+announcer.act.3.dialogue.1=Great job! You're almost at the time portal! 
+announcer.act.3.dialogue.2=Slight change of plans. It seems like the time portal isn't powered up. No problem, we have a couple ideas on how to fix that. 
+announcer.act.3.dialogue.3=Head up the stairs and we'll talk further.
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
+announcer.act.4.dialogue.1=Great, you made it. We think we figured out what went wrong, and we're ready to bring you home. The only problem is the time portal is powered down. 
+announcer.act.4.dialogue.2=We'll need to power it up. I don't suppose you brought a couple hundred-million volt battery with you? I didn't think so. We've come up with a creative way to power the portal.
+announcer.act.4.dialogue.3=Lightning! Make it rain and have lightning strike down on those gold plates! Do it quick and we could all laugh about this over lunch.
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Go through the time portal.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+code.actionbar=Press "C" to begin coding.
+
+##	Acts
+
+act.1.chat.1=Exit the portal and talk to me.
+
+act.1.actionbar.1=Exit the time portal.
+act.1.actionbar.2=Talk with the Dr. Rubin hologram.
+act.1.actionbar.3=Sneak past the spinosaurus.
+act.1.actionbar.4=Talk with the Dr. Rubin hologram.
+act.1.title.caught=The spinosaurus saw you!
+
+act.2.chat.1=Come talk to me.
+act.2.actionbar.1=Enter the temple.
+act.2.actionbar.2=Talk with the Dr. Rubin hologram.
+act.2.actionbar.3=Navigate through the tunnels.
+act.2.actionbar.4=Get past the lava.
+act.2.actionbar.5=Continue up the stairs.
+act.2.actionbar.6=Cross the pit.
+act.2.actionbar.7=Continue through the tunnel.
+
+act.3.chat.1=Come talk to me.
+act.3.actionbar.1=Talk with the Dr. Rubin hologram.
+act.3.actionbar.2=Activate the time portal.

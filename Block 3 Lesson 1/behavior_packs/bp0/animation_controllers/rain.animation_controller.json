@@ -1,0 +1,21 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.rain": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{ "raining": "query.is_sheared" }
+					]
+				},
+				"raining": {
+					"on_entry": [
+						"/scoreboard players set @e[tag=game] goal 1",
+						"/tag @s add despawn"
+					]
+				}
+			}
+		}
+	}
+}

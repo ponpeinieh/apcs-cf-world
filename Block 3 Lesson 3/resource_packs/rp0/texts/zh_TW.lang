@@ -1,0 +1,87 @@
+##
+## Block 3 Lesson 3
+## 版權 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 第三課
+pack.description=Block 3 第三課所需的資源
+
+##	通用
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=魯賓博士
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.4"}]}
+announcer.act.1.dialogue.1=好消息是沒有恐龍，壞消息是我們現在在公元70年左右的羅馬。
+announcer.act.1.dialogue.2=看起來我們正好趕上了他們開始建造羅馬競技場。你可以去幫忙看看，我們將努力找到時間之門。
+announcer.act.1.dialogue.3=開採材料需要大量的手工勞動，我們來看看能不能讓這個過程更高效。創建一個應用程序來計算你需要的方塊數量，並在你挖到足夠數量的方塊時提醒你。
+announcer.act.1.dialogue.4=柱子應該放在黃色和黑色方塊標示的區域。沿著土路去收集所需的材料。
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=我們偵測到來自時間之門的微弱信號。我們需要幫助增強信號來定位它。雖然我們不能讓你回到我們的時代，但我們認為可以派出代理來協助你。
+announcer.act.2.dialogue.2=在我們定位傳送門的同時，使用代理幫助完成這些渡槽。完成後，拉下拉桿打開水流。一旦水流正確流入水庫，拉桿旁邊的門就會打開。
+announcer.act.2.dialogue.3=一旦水開始流動，我們會給你一些建造渡槽支撐的資源。
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
+announcer.act.3.dialogue.1=這個水庫的地板有點單調。我們來建一個華麗的邊框來裝飾一下這個池子吧。
+announcer.act.3.dialogue.2=一旦你替換了所有的方塊，水就應該開始流入池中，並且房間另一側通往羅馬競技場地面的門會打開。
+announcer.act.3.dialogue.3=走上那條路，去找到時間傳送門。
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
+announcer.act.4.dialogue.1=你找到了傳送門！
+announcer.act.4.dialogue.2=這次我們確信你能回到我們這裡。我們將透過順時針旋轉執行器13度來重置時間扭曲頻率。
+announcer.act.4.dialogue.3=呃……我們稍微調整了旋鈕。
+
+##	執行 @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+lobby.actionbar=通過時間傳送門。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=重置活動
+
+radio.title.warning=確認重置
+radio.subtitle.warning=再次使用來確認。
+radio.title.reset=活動已重置
+radio.title.proceed=活動完成。
+radio.subtitle.proceed=繼續下一個活動。
+
+radio.intro=*收音機靜電*
+
+code.actionbar=按 "C" 開始編碼。
+
+##	{"rawtext":[{"translate":"sign.water.on.1"},{"text":"\n"},{"translate":"sign.water.on.2"},{"text":"\n"},{"translate":"sign.water.on.3"},{"text":"\n"},{"translate":"sign.water.on.4"}]}
+sign.water.on.1=§r
+sign.water.on.2=§1§l水
+sign.water.on.3=§6§l[§2§l流動中§6§l]
+sign.water.on.4=§r
+
+##	{"rawtext":[{"translate":"sign.water.off.1"},{"text":"\n"},{"translate":"sign.water.off.2"},{"text":"\n"},{"translate":"sign.water.off.3"},{"text":"\n"},{"translate":"sign.water.off.4"}]}
+sign.water.off.1=§r
+sign.water.off.2=§1§l水
+sign.water.off.3=§6§l[§4§l停止§6§l]
+sign.water.off.4=§r
+
+##	行為
+
+act.1.actionbar.1=走出時間傳送門。
+act.1.actionbar.2=與魯賓博士的全息影像對話。
+act.1.actionbar.3=通過大門。
+
+act.2.actionbar.1=通過大門。
+act.2.actionbar.2=與魯賓博士的全息影像對話。
+act.2.actionbar.3=建造一些支撐然後下樓梯。
+
+act.3.actionbar.1=下樓梯。
+act.3.actionbar.2=與魯賓博士的全息影像對話。
+act.3.actionbar.3=通過大門。
+
+act.4.actionbar.1=上樓梯並探索該區域。
+act.4.actionbar.2=與魯賓博士的全息影像對話。

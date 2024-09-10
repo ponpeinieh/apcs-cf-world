@@ -1,0 +1,136 @@
+##
+## Block 2 第五課
+## 版權 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 2 第五課
+pack.description=Block 2 第五課所需資源
+
+##	覆蓋
+container.hopper=材料數位化儀
+
+##	通用
+##	{"rawtext":[{"text":"\n"},{"translate":"trophy.sign.neptune.name"},{"text":"\n§1"},{"translate":"trophy.sign.neptune.material"}]}
+trophy.sign.mercury.name=水星
+trophy.sign.mercury.material=冰
+trophy.sign.venus.name=金星
+trophy.sign.venus.material=鐵
+trophy.sign.moon.name=地球的月亮
+trophy.sign.moon.material=石頭
+trophy.sign.mars.name=火星
+trophy.sign.mars.material=紅砂岩
+trophy.sign.jupiter.name=木星
+trophy.sign.jupiter.material=岩石
+trophy.sign.saturn.name=土星
+trophy.sign.saturn.material=礦石和寶石
+trophy.sign.uranus.name=天王星
+trophy.sign.uranus.material=黑礦
+trophy.sign.neptune.name=海王星
+trophy.sign.neptune.material=紅石礦
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=卡德菲爾德指揮官
+
+##	{"rawtext":[{"translate":"announcer.act.0.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.3"}]}
+announcer.act.0.dialogue.1=天王星是以希臘天空之神命名，是第一顆在望遠鏡幫助下發現的行星。
+announcer.act.0.dialogue.2=由於它主要由氣體和液體構成，我們無法在天王星著陸。像土星一樣，天王星也有一組由小行星和其他物質組成的環，這些物質因為靠得太近而被其重力吸引。我們去其中一顆小行星上看看會發現什麼吧。
+announcer.act.0.dialogue.3=§l警告：§r 在按下“我準備好了”之前，務必仔細閱讀給你的代碼。你只有一次機會完成這個活動。
+
+##	{"rawtext":[{"translate":"announcer.act.1.success.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.success.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.success.dialogue.3"}]}
+announcer.act.1.success.dialogue.1=現在你已經取回了§1黑礦§r，我們需要將它數位化並發送回地球進行研究。
+announcer.act.1.success.dialogue.2=首先，你需要從代理的物品欄中取出§1黑礦§r。走近代理並§o右鍵單擊§r它。§o左鍵單擊§r§1黑礦§r塊以拾取，然後§o左鍵單擊§r你的物品欄中的空槽將其放下。
+announcer.act.1.success.dialogue.3=現在重複這個過程，對材料數位化儀操作。它是代理旁邊有藍色光線移動的機器。一旦完成，轉身看看全息顯示屏，它應該會顯示你剛數位化的方塊。
+
+##	{"rawtext":[{"translate":"announcer.act.1.fail.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.fail.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.fail.dialogue.3"}]}
+announcer.act.1.fail.dialogue.1=很遺憾，你選擇了錯誤的代碼，無法收集我們想分析的§1黑礦§r。
+announcer.act.1.fail.dialogue.2=別擔心，在我們的下一個地點，你會有另一個機會收集最後一塊材料。
+announcer.act.1.fail.dialogue.3=讓我們前往最終目的地吧。
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=海王星是一顆寒冷黑暗的行星，也是離太陽最遠的行星。它距離太陽比地球遠30多倍！
+announcer.act.2.dialogue.2=像天王星和其他行星一樣，海王星沒有固體表面。由於這一點，我們將檢查它最大的衛星——海衛一。雖然非常寒冷，但地球上的科學家檢測到其大氣層正在緩慢變暖，原因不明。讓我們去看看能發現什麼。
+announcer.act.2.dialogue.3=§l警告：§r 在按下“我準備好了”之前，務必仔細閱讀給你的代碼。你只有一次機會完成這個活動。
+
+##	{"rawtext":[{"translate":"announcer.act.2.success.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.success.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.success.dialogue.3"}]}
+announcer.act.2.success.dialogue.1=現在你已經取回了§1紅石礦§r，我們需要將它數位化並發送回地球進行研究。
+announcer.act.2.success.dialogue.2=首先，你需要從代理的物品欄中取出§1紅石礦§r。走近代理並§o右鍵單擊§r它。§o左鍵單擊§r§1紅石礦§r塊以拾取，然後§o左鍵單擊§r你的物品欄中的空槽將其放下。
+announcer.act.2.success.dialogue.3=現在重複這個過程，對材料數位化儀操作。它是代理旁邊有藍色光線移動的機器。一旦完成，轉身看看全息顯示屏，它應該會顯示你剛數位化的方塊。
+
+##	{"rawtext":[{"translate":"announcer.act.2.fail.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.fail.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.fail.dialogue.3"}]}
+announcer.act.2.fail.dialogue.1=感謝你幫助我們為地球上的科學家收集了所有材料！
+announcer.act.2.fail.dialogue.2=很遺憾，你沒能從海王星的衛星海衛一上收集到最後的材料。
+announcer.act.2.fail.dialogue.3=你可以按下“再試一次”按鈕重新開始這課。
+
+##	{"rawtext":[{"translate":"announcer.act.2.end.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.end.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.end.dialogue.3"}]}
+announcer.act.2.end.dialogue.1=感謝你幫助我們為地球上的科學家收集了所有材料！
+announcer.act.2.end.dialogue.2=你收集的材料將大大幫助我們更好地理解太陽系！
+announcer.act.2.end.dialogue.3=如果你錯過了第一個活動，或者只是想重新嘗試這課，請按“再試一次”按鈕。
+
+## 功能 i
+##	{"rawtext":[{"translate":"announcer.button.try_again"}]}
+announcer.button.try_again=再試一次
+
+##	功能 generic/ready
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+##	功能 generic/not_ready
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+lobby.actionbar=右鍵單擊卡德菲爾德指揮官以開始。
+code.actionbar=按“C”進行編程。
+holodeck.actionbar=進入全息模擬器。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+act.title.fail=活動失敗！
+
+item.fishing_rod.name=§l§n§2無線電§r
+action.interact.fishing=重置
+
+radio.title.warning=確認重置
+radio.subtitle.warning=再次使用以確認。
+
+Here is the translation of the provided text into Traditional Chinese:
+
+```plaintext
+radio.title.reset=重設
+radio.title.proceed=重設完成
+radio.subtitle.proceed=繼續下一個活動
+
+radio.intro=*收音機靜電*
+
+## 行為
+
+act.1.chat.1=哪一段代碼可以幫助代理找到礦石 deposits?
+
+act.1.reducer.chat.1=如果你需要幫助來數位化你的方塊，請右鍵點擊我。
+
+act.1.fail.chat.1=你未能收集到所需的材料。
+
+act.2.chat.1=哪一段代碼可以幫助代理收集所有紅石礦石?
+
+act.2.reducer.chat.1=如果你需要幫助來數位化你的方塊，請右鍵點擊我。
+
+act.2.fail.chat.1=你未能收集到所需的材料。
+
+## 全息模擬器
+## {"rawtext":[{"translate":"holodeck.start"}]}
+holodeck.start=載入模擬中...
+holodeck.entered=模擬載入完成！
+holodeck.cancel=模擬取消
+
+## 超光速引擎
+hyperdrive.engage=超光速引擎啟動
+
+## 減少器行動條
+## {"rawtext":[{"translate":"reducer.analyze"}]}
+reducer.analyze=數位化代理收集的方塊。
+
+code.enabled.title=警告
+code.enabled.subtitle=代碼已啟用。你只有一次機會。
+
+continue.actionbar=右鍵點擊 Cadfield 指揮官以繼續。
+
+continue.title=§r

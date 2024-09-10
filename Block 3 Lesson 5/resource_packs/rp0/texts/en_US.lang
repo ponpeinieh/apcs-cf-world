@@ -1,0 +1,82 @@
+##
+## Block 3 Lesson 5
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 Lesson 5
+pack.description=Resources needed for Block 3 Lesson 5
+
+
+##	Overrides
+container.hopper=Material Digitizer
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Rubin
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"}]}
+announcer.act.1.dialogue.1=We over-shot it by a bit. I won't say when you are, we don't want to cause any time paradoxes but let's just say watch out for flying cars.
+announcer.act.1.dialogue.2=We think we have the problem worked out. If my calculations are correct we just need to feed the portal some beets and we'll be back in business. Why beets? Because they are packed with essential nutrients of course!
+announcer.act.1.dialogue.3=We'll need a lot of them. Luckily, we ended up on a roof-top farm. Let's teach the Agent how to farm them. I'm sending you some seeds. Right-click the Agent and put them in its inventory.
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"}]}
+announcer.act.2.dialogue.1=Great job! Now that the Agent has the basics down, lets teach it how to plant a line of seeds. 
+announcer.act.2.dialogue.2=You won't have to tell the Agent how to plant the seeds again. It'll already know. Just have the Agent fill this entire line with seeds.
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"}]}
+announcer.act.3.dialogue.1=A simple line of beets won't be nearly enough! Let's teach the Agent how to do multiple lines.
+announcer.act.3.dialogue.2=Train the Agent to turn when it gets to specific blocks. 
+
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"}]}
+announcer.act.4.dialogue.1=Now that you've trained the Agent to plant a large area of seeds, let's plant those beets!
+announcer.act.4.dialogue.2=This area seems like a great place to get going. Fill this dirt area with beets. Once they grow, we should be able to get out of here!
+
+
+##	{"rawtext":[{"translate":"announcer.act.5.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.3"}]}
+announcer.act.5.dialogue.1=Wow, that took so long the beets have already grown!  
+announcer.act.5.dialogue.2=Harvest at least 23 beets and feed them into the material digitizer by right-clicking it and putting the beets inside. 
+announcer.act.5.dialogue.3=You can harvest the beets by either left-clicking the crops manually or for an additional bonus, program the Agent to do it. Modify your previous code or even write new code!
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Go through the time portal.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+code.actionbar=Press "C" to begin coding.
+
+##	Acts
+
+act.1.actionbar.1=Exit the time portal.
+act.1.actionbar.2=Talk with the Dr. Rubin hologram.
+act.1.actionbar.3=Walk through the door.
+
+act.2.actionbar.1=Walk through the door.
+act.2.actionbar.2=Talk with the Dr. Rubin hologram.
+
+act.3.actionbar.1=Walk through the door.
+act.3.actionbar.2=Talk with the Dr. Rubin hologram.
+act.3.actionbar.3=Follow the path into the next dome.
+
+act.4.actionbar.1=Follow the path into the next dome.
+act.4.actionbar.2=Talk with the Dr. Rubin hologram.
+act.4.actionbar.3=Feed the beets into the digitizer.

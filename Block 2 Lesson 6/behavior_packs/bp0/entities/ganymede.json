@@ -1,0 +1,85 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "pws:ganymede",
+			"is_spawnable": true,
+			"is_summonable": true
+		},
+		"components": {
+			"minecraft:push_through": {
+				 "value": true
+			},
+			"minecraft:knockback_resistance": {
+				"value": 1
+			},
+			"minecraft:scale":{
+				"value": 0
+			},
+			"minecraft:pushable": {
+				"is_pushable": false,
+				"is_pushable_by_piston": false
+			},
+			"minecraft:movement": {
+				"value": 0.0
+			},
+			"minecraft:health":{
+				"value": 3000,
+				"max": 3000
+			},
+			"minecraft:collision_box": {
+				"width": 1.0,
+				"height": 1.0
+			},
+			"minecraft:physics":{
+				"has_gravity": false
+			},
+			"minecraft:environment_sensor": [
+				{
+					"on_environment": {
+						"event": "despawn",
+						"filters": {
+							"test": "has_tag",
+							"value": "despawn"
+						}
+					}
+				}
+			],
+			"minecraft:timer": {
+				"looping": false,
+				"randomInterval": false,
+				"time": 0.05,
+				"time_down_event": {
+					"event": "visible"
+				}
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:despawn": {
+				}
+			},
+			"visible": {
+				"minecraft:scale": {
+					"value": 6
+				}
+			}
+		},
+		"events":{
+			"despawn": {
+				"add": {
+					"component_groups": [
+						"despawn"
+					]
+				}
+			},
+			"visible": {
+				"add": {
+					"component_groups": [
+						"visible"
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+##
+## Block 3 Lesson 1
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=第3區塊 第1課
+pack.description=第3區塊 第1課所需的資源
+
+## 一般項目
+
+## {"rawtext":[{"translate":"announcer"}]}
+announcer=魯賓博士
+
+## {"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=歡迎！你準備好成為第一個穿越時間的人嗎？
+announcer.dialogue.2=在我們能進入時間之門之前，我們需要讓你做好準備。前方有一些測試，讓我們看看你是否能通過它們，這樣我們就能啟動時間之門了！
+announcer.dialogue.3=當你準備好時告訴我。我會給你一個§l§n§2收音機§r，你可以用來呼叫幫助。
+
+## execute @e[tag=game] ~ ~ ~ function act/1/set
+## {"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+## {"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=尚未準備好
+
+lobby.actionbar=右鍵點擊魯賓博士以開始。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=重置活動
+
+radio.title.warning=確認重置
+radio.subtitle.warning=再次使用以確認。
+radio.title.reset=活動重置
+radio.title.proceed=活動完成。
+radio.subtitle.proceed=繼續下一個活動。
+
+radio.intro=*收音機靜電*
+
+code.actionbar=按 "C" 開始編程。
+
+## 行為
+
+act.1.chat.1=看看你能否通過那片熔岩。我不建議沒有保護的情況下跳進去。
+
+act.2.chat.1=那些階梯相當陡峭。你如何才能上去？
+
+act.3.chat.1=重建金字塔。它需要正好34個方塊。你可以使用鐵、金、鑽石或翡翠來建造它。
+
+act.4.chat.1=匹配地板上顯示的方塊。
+
+act.4.title.matched=匹配成功！
+act.4.title.cleared=清除完成！
+act.4.actionbar.match_block=等待匹配...
+act.4.actionbar.clear_block=將方塊重置為0。
+
+act.5.chat.1=看看你能否讓它下雨！

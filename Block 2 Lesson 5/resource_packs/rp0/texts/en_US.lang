@@ -1,0 +1,141 @@
+##
+## Block 2 Lesson 5
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 2 Lesson 5
+pack.description=Resources needed for Block 2 Lesson 5
+
+##	Overrides
+container.hopper=Material Digitizer
+
+##	Generics
+##	{"rawtext":[{"text":"\n"},{"translate":"trophy.sign.neptune.name"},{"text":"\n§1"},{"translate":"trophy.sign.neptune.material"}]}
+trophy.sign.mercury.name=Mercury
+trophy.sign.mercury.material=Ice
+trophy.sign.venus.name=Venus
+trophy.sign.venus.material=Iron
+trophy.sign.moon.name=Earth's Moon
+trophy.sign.moon.material=Stone
+trophy.sign.mars.name=Mars
+trophy.sign.mars.material=Red Sandstone
+trophy.sign.jupiter.name=Jupiter
+trophy.sign.jupiter.material=Rock
+trophy.sign.saturn.name=Saturn
+trophy.sign.saturn.material=Ores and Gems
+trophy.sign.uranus.name=Uranus
+trophy.sign.uranus.material=Dark Ore
+trophy.sign.neptune.name=Neptune
+trophy.sign.neptune.material=Redstone Ore
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Comdr. Cadfield
+
+##	{"rawtext":[{"translate":"announcer.act.0.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.3"}]}
+announcer.act.0.dialogue.1=Named after the Greek god of the sky, Uranus was the first planet discovered with the aid of a telescope.
+announcer.act.0.dialogue.2=Due to it being mostly gas and liquid, we can't land on Uranus. Like Saturn, Uranus has its own set of rings made up of asteroids and other materials that got too close and was picked up by its gravitional pull. Let's go to one of those asteroids and see what we find.
+announcer.act.0.dialogue.3=§lWarning:§r Make sure to read the code you were given carefully before pressing "I'm ready." You'll only get one chance at completing this activity.
+
+##	{"rawtext":[{"translate":"announcer.act.1.success.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.success.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.success.dialogue.3"}]}
+announcer.act.1.success.dialogue.1=Now that you've retrieved the §1Dark Ore§r, we'll need to digitize it and send it back to Earth for them to study.
+announcer.act.1.success.dialogue.2=To do that you'll first need to remove the §1Dark Ore§r from the Agent's inventory. Walk up to the Agent and §oright-click§r it. §oLeft-click§r the block of §1Dark Ore§r to pick it up, and then §oleft-click§r an empty slot in your inventory to put it down.
+announcer.act.1.success.dialogue.3=Now repeat that process with the Material Digitizer. It's the machine that has a moving blue light next to the Agent. Once you complete that, turn around and look at the holographic display. It should show the block you've just digitized.
+
+##	{"rawtext":[{"translate":"announcer.act.1.fail.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.fail.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.fail.dialogue.3"}]}
+announcer.act.1.fail.dialogue.1=Unfortunately you chose the wrong code and weren't able to collect the §1Dark Ore§r we wanted to analyze.
+announcer.act.1.fail.dialogue.2=Don't worry, you'll have another chance at our next location to get the final piece of material.
+announcer.act.1.fail.dialogue.3=Let's head off to our final destination.
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=Neptune is a cold and dark planet and the furthest planet from the Sun. It's over 30 times the distance from the Sun as the Earth!
+announcer.act.2.dialogue.2=Like Uranus and other planets, Neptune does not have a solid surface. Because of that, we'll check out its largest moon, Triton. While extremely cold, scientists on Earth have detected its atmosphere is slowly growing warmer, but don't know why. Let's head there and see what we can find.
+announcer.act.2.dialogue.3=§lWarning:§r Make sure to read the code you were given carefully before pressing "I'm ready." You'll only get one chance at completing this activity.
+
+##	{"rawtext":[{"translate":"announcer.act.2.success.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.success.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.success.dialogue.3"}]}
+announcer.act.2.success.dialogue.1=Now that you've retrieved the §1Redstone Ore§r, we'll need to digitize it and send it back to Earth for them to study.
+announcer.act.2.success.dialogue.2=To do that you'll first need to remove the §1Redstone Ore§r from the Agent's inventory. Walk up to the Agent and §oright-click§r it. §oLeft-click§r the block of §1Redstone Ore§r to pick it up, and then §oleft-click§r an empty slot in your inventory to put it down.
+announcer.act.2.success.dialogue.3=Now repeat that process with the Material Digitizer. It's the machine that has a moving blue light next to the Agent. Once you complete that, turn around and look at the holographic display. It should show the block you've just digitized.
+
+##	{"rawtext":[{"translate":"announcer.act.2.fail.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.fail.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.fail.dialogue.3"}]}
+announcer.act.2.fail.dialogue.1=Thank you for all your help collecting all those materials for the scientists on Earth to analyze!
+announcer.act.2.fail.dialogue.2=Unfortunately you weren't able to collect the final material from Neptune's moon Triton.
+announcer.act.2.fail.dialogue.3=You can press the "Try again" button to restart this lesson.
+
+##	{"rawtext":[{"translate":"announcer.act.2.end.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.end.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.end.dialogue.3"}]}
+announcer.act.2.end.dialogue.1=Thank you for all your help collecting all those materials for the scientists on Earth to analyze!
+announcer.act.2.end.dialogue.2=The materials you've collected will go a long way in helping us better understand our solar system!
+announcer.act.2.end.dialogue.3=If you missed the first activity or would just like to retry this lesson, press the "Try again" button. 
+
+## function i
+##	{"rawtext":[{"translate":"announcer.button.try_again"}]}
+announcer.button.try_again=Try again
+
+##	function generic/ready
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	function generic/not_ready
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Right-click Comdr. Cadfield to begin.
+code.actionbar=Press "C" to code.
+holodeck.actionbar=Enter the holographic simulator.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+act.title.fail=Activity Failed!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Reset
+radio.title.proceed=Reset Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=Which piece of code will help the Agent find the ore deposit?
+
+
+act.1.reducer.chat.1=If you need help digitizing your block, come right-click me.
+
+
+act.1.fail.chat.1=You were unable to retrieve the needed materials.
+
+
+act.2.chat.1=Which piece of code will help the Agent collect all the redstone ore?
+
+
+act.2.reducer.chat.1=If you need help digitizing your block, come right-click me.
+
+
+act.2.fail.chat.1=You were unable to retrieve the needed materials.
+
+
+
+
+
+## Holodeck
+## {"rawtext":[{"translate":"holodeck.start"}]}
+holodeck.start=Loading Simulation...
+holodeck.entered=Simulation loaded!
+holodeck.cancel=Simulation Canceled
+
+## Hyperdrive
+hyperdrive.engage=Hyperdrive Engaged
+
+## Reducer actionbar
+## {"rawtext":[{"translate":"reducer.analyze"}]}
+reducer.analyze=Digitize the block your Agent collected.
+
+code.enabled.title=Warning
+code.enabled.subtitle=Code enabled. You get one try.
+
+continue.actionbar=Right-click Comdr. Cadfield to continue.
+
+continue.title=§r

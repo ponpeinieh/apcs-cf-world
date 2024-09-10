@@ -1,0 +1,110 @@
+##
+## 第2單元 第6課
+## 版權 2020 ReWrite Media, Inc.
+##
+
+pack.name=第2單元 第6課
+pack.description=第2單元 第6課所需的資源
+
+## 覆蓋
+container.hopper=物質數位化器
+
+## 一般
+## {"rawtext":[{"text":"\n"},{"translate":"trophy.sign.neptune.name"},{"text":"\n§1"},{"translate":"trophy.sign.neptune.material"}]}
+trophy.sign.mercury.name=水星
+trophy.sign.mercury.material=冰
+trophy.sign.venus.name=金星
+trophy.sign.venus.material=鐵
+trophy.sign.moon.name=地球的月亮
+trophy.sign.moon.material=石頭
+trophy.sign.mars.name=火星
+trophy.sign.mars.material=紅砂岩
+trophy.sign.jupiter.name=木星
+trophy.sign.jupiter.material=岩石
+trophy.sign.saturn.name=土星
+trophy.sign.saturn.material=礦石與寶石
+trophy.sign.uranus.name=天王星
+trophy.sign.uranus.material=暗礦石
+trophy.sign.neptune.name=海王星
+trophy.sign.neptune.material=紅石礦
+
+## {"rawtext":[{"translate":"announcer"}]}
+announcer=卡德菲爾德指揮官
+
+## {"rawtext":[{"translate":"announcer.act.0.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.3"}]}
+announcer.act.0.dialogue.1=讓我們用代碼發揮創意吧！
+announcer.act.0.dialogue.2=通過我旁邊的按鈕切換環境，選擇你想要工作的環境。在每個星球或月球上，都有5個任務等待你完成，並且有足夠的空間讓你嘗試自己的代碼。
+announcer.act.0.dialogue.3=一起合作完成所有的任務吧！隨時可以合作創造你自己的任務！選擇完你想要造訪的環境後，點擊下方的§l我準備好了§r按鈕，進入模擬室。
+
+## function generic/ready
+## {"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+## function generic/not_ready
+## {"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+## {"rawtext":[{"text":"\n"},{"translate":"lobby.sign.dec"}]}
+lobby.sign.dec=上一個
+## {"rawtext":[{"text":"\n"},{"translate":"lobby.sign.inc"}]}
+lobby.sign.inc=下一個
+
+lobby.actionbar=右鍵點擊卡德菲爾德指揮官開始。
+code.actionbar=按 "C" 進行編碼。
+holodeck.actionbar=進入全息模擬器。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=移動代理
+
+radio.title.warning=移動代理
+radio.subtitle.warning=再次使用以確認。
+radio.title.reset=代理已移動
+radio.title.proceed=重置完成。
+radio.subtitle.proceed=繼續到下一個活動。
+
+radio.intro=*收音機靜電聲*
+
+## Acts
+
+act.1.chat.1=歡迎！請閱讀板上的可用任務和說明！
+
+## 全息模擬器
+## {"rawtext":[{"translate":"holodeck.start"}]}
+holodeck.start=正在加載模擬...
+holodeck.entered=模擬加載完成！
+holodeck.cancel=模擬已取消
+
+## 超空間引擎
+hyperdrive.engage=超空間引擎啟動
+
+## 減速器動作條
+## {"rawtext":[{"translate":"reducer.analyze"}]}
+reducer.analyze=數位化代理收集的方塊。
+
+act.title.cooldown=退出冷卻
+act.subtitle.cooldown=請等待30秒。
+act.title.warning=返回飛船
+act.subtitle.warning=再次按下按鈕以確認。
+act.title.return=正在加載...
+act.subtitle.return=請稍候，我們正在傳送你。
+
+## 黑板
+## {"rawtext":[{"translate":"chalkboard.line.0"},{"text":"\n"},{"translate":"chalkboard.line.1"},{"text":"\n"},{"translate":"chalkboard.line.2"},{"text":"\n"},{"translate":"chalkboard.line.3"},{"text":"\n"},{"translate":"chalkboard.line.4"},{"text":"\n"},{"translate":"chalkboard.line.5"},{"text":"\n"},{"translate":"chalkboard.line.6"},{"text":"\n"},{"translate":"chalkboard.line.7"},{"text":"\n"},{"translate":"chalkboard.line.8"},{"text":"\n"},{"translate":"chalkboard.line.9"},{"text":"\n"},{"translate":"chalkboard.line.10"},{"text":"\n"},{"translate":"chalkboard.line.11"},{"text":"\n"},{"translate":"chalkboard.line.12"},{"text":"\n"},{"translate":"chalkboard.line.13"},{"text":"\n"},{"translate":"chalkboard.line.14"}]}
+chalkboard.line.0=在這個區域中，你會看到標有燈柱的預設任務。完成這些任務，並嘗試創建自訂代碼，來創造你自己的任務！按下§lC§r召喚代理後，你可以使用§l§n收音機§r將代理傳送到你的位置。使用下方按鈕重置區域並返回飛船。
+chalkboard.line.1=§r
+chalkboard.line.2=§l任務:§r
+chalkboard.line.3=1. 開採礦石
+chalkboard.line.4=2. 完成迷宮。
+chalkboard.line.5=3. 收集金塊
+chalkboard.line.6=4. 沿著牆壁走到金塊
+chalkboard.line.7=5. 在隕石坑中找到鑽石。
+chalkboard.line.8=§r
+
+## 星球描述（選擇時）
+planet.0.info=水星
+planet.1.info=金星
+planet.2.info=火星
+planet.3.info=木衛三 (甘尼米德)

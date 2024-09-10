@@ -1,0 +1,24 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:earth",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.planet_earth"
+			},
+			"textures": {
+				"default": "textures/entity/planet/earth"
+			},
+			"materials": {
+				"default": "transparent"
+			}
+		}
+	}
+}

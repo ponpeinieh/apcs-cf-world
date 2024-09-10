@@ -1,0 +1,225 @@
+##
+## Block 2 Lesson 3
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 2 課程 3
+pack.description=Block 2 課程 3 所需資源
+
+## 覆蓋
+container.hopper=材料數位化機
+
+## 通用
+## {"rawtext":[{"text":"\n"},{"translate":"trophy.sign.mars.name"},{"text":"\n§1"},{"translate":"trophy.sign.mars.material"}]}
+trophy.sign.mercury.name=水星
+trophy.sign.mercury.material=冰
+trophy.sign.venus.name=金星
+trophy.sign.venus.material=鐵
+trophy.sign.moon.name=地球的月亮
+trophy.sign.moon.material=石頭
+trophy.sign.mars.name=火星
+trophy.sign.mars.material=紅砂岩
+trophy.sign.jupiter.name=木星
+trophy.sign.saturn.name=土星
+trophy.sign.uranus.name=天王星
+trophy.sign.neptune.name=海王星
+
+## {"rawtext":[{"translate":"announcer"}]}
+announcer=卡德菲爾德指揮官
+
+## {"rawtext":[{"translate":"announcer.act.0.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.3"}]}
+announcer.act.0.dialogue.1=1969年7月，尼爾·阿姆斯壯成為第一個踏上月球的人。自那以來，我們已經發送了多次載人任務以及機器人和衛星。
+announcer.act.0.dialogue.2=今天，我們將前往月球修復一些損壞的實驗。你需要使用提供的代碼，找出問題所在。
+announcer.act.0.dialogue.3=前往月球表面，找到舊的月球車，我會在這裡等待。如果需要幫助，請用§l§n§2無線電§r聯絡我。
+
+## {"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=現在你已經找到了§1石頭§r，我們需要將其數位化並送回地球進行研究。
+announcer.act.2.dialogue.2=首先需要從代理的物品欄中取出§1石頭§r。走到代理旁邊並§o右鍵點擊§r，§o左鍵點擊§r石頭來拿起它，然後§o左鍵點擊§r空的物品欄來放置它。
+announcer.act.2.dialogue.3=現在重複這個步驟，使用材料數位化機。它就在代理旁邊，具有移動的藍色光條。完成後，轉身查看全息顯示器，它應該會顯示你剛剛數位化的方塊。
+
+## {"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
+announcer.act.3.dialogue.1=自1970年代以來，我們已經向火星發送了多台名為探測車的機器人。太空任務非常危險且昂貴，發送機器人允許我們在不危及人類生命的情況下進行實驗。
+announcer.act.3.dialogue.2=看來地球與其中一台探測車失去聯繫。他們要求我們定位這台探測車並取回它收集的火星石。
+announcer.act.3.dialogue.3=我會在這裡設定我們的下一個航線。如果需要幫助，請用§l§n§2無線電§r聯絡我。
+
+## {"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
+announcer.act.4.dialogue.1=現在你已經找到了§1紅砂岩§r，我們需要將其數位化並送回地球進行研究。
+announcer.act.4.dialogue.2=首先需要從代理的物品欄中取出§1紅砂岩§r。走到代理旁邊並§o右鍵點擊§r，§o左鍵點擊§r紅砂岩來拿起它，然後§o左鍵點擊§r空的物品欄來放置它。
+announcer.act.4.dialogue.3=現在重複這個步驟，使用材料數位化機。它就在代理旁邊，具有移動的藍色光條。完成後，轉身查看全息顯示器，它應該會顯示你剛剛數位化的方塊。
+
+## {"rawtext":[{"translate":"announcer.act.5.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.3"}]}
+announcer.act.5.dialogue.1=你做得非常好，已經取回了所有的材料！
+announcer.act.5.dialogue.2=你現在可以進入全息模擬器了！轉身走進剛打開的門，進行火星的模擬，隨意使用你的代理。盡情體驗吧！
+announcer.act.5.dialogue.3=在模擬器中，你的§l§n§2無線電§r可以召喚代理到你身邊。玩得開心，我們下次任務再見！
+
+## function generic/ready
+## {"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+## function generic/not_ready
+## {"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+lobby.actionbar=右鍵點擊卡德菲爾德指揮官以開始。
+code.actionbar=按 "C" 進行編碼。
+holodeck.actionbar=進入全息模擬器。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2無線電§r
+action.interact.fishing=重置
+
+radio.title.warning=確認重置
+radio.subtitle.warning=再次使用以確認。
+radio.title.reset=重置
+radio.title.proceed=重置完成。
+radio.subtitle.proceed=繼續進行下一個活動。
+
+radio.intro=*無線電雜音*
+
+## 任務
+act.1.chat.1=修復代碼並找到月球石。
+
+act.2.chat.1=修復代碼並找到埋藏的石頭。
+
+act.2.reducer.chat.1=如果你需要幫助數位化你的方塊，來右鍵點擊我。
+
+act.3.chat.1=使用這些信標來找到探測車的去向。
+
+act.4.chat.1=除錯舊的維修代碼，並用紅石修復破損部分。
+
+act.4.chat.block_extracted=我們找到了！讓我們回去吧。
+
+act.4.reducer.chat.1=如果你需要幫助數位化你的方塊，來右鍵點擊我。
+
+## 全息模擬器
+## {"rawtext":[{"translate":"holodeck.start"}]}
+holodeck.start=加載模擬中...
+holodeck.entered=模擬加載完成！
+holodeck.cancel=模擬已取消
+
+## 超光速引擎
+hyperdrive.engage=超光速引擎啟動
+
+## 減縮器動作條
+## {"rawtext":[{"translate":"reducer.analyze"}]}
+reducer.analyze=數位化代理收集的方塊。
+pack.name=Block 2 Lesson 3
+pack.description=Resources needed for Block 2 Lesson 3
+
+##	Overrides
+container.hopper=Material Digitizer
+
+##	Generics
+##	{"rawtext":[{"text":"\n"},{"translate":"trophy.sign.mars.name"},{"text":"\n§1"},{"translate":"trophy.sign.mars.material"}]}
+trophy.sign.mercury.name=Mercury
+trophy.sign.mercury.material=Ice
+trophy.sign.venus.name=Venus
+trophy.sign.venus.material=Iron
+trophy.sign.moon.name=Earth's Moon
+trophy.sign.moon.material=Stone
+trophy.sign.mars.name=Mars
+trophy.sign.mars.material=Red Sandstone
+trophy.sign.jupiter.name=Jupiter
+
+trophy.sign.saturn.name=Saturn
+
+trophy.sign.uranus.name=Uranus
+
+trophy.sign.neptune.name=neptune
+
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Comdr. Cadfield
+
+##	{"rawtext":[{"translate":"announcer.act.0.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.3"}]}
+announcer.act.0.dialogue.1=Neil Armstrong was the first human to step foot on the moon in July of 1969. Since then we have sent multiple manned missions as well as robots and satellites. 
+announcer.act.0.dialogue.2=Today we will be stopping by the moon to help fix a few experiments that seem to be broken. You will need to take the provided code and figure out what's wrong with it.
+announcer.act.0.dialogue.3=Head down to the surface and find the old lunar rover, I'll wait up here. §l§n§2Radio§r me if you need any help.
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=Now that you've retrieved the §1Stone§r, we'll need to digitize it and send it back to Earth for them to study.
+announcer.act.2.dialogue.2=To do that you'll first need to remove the §1Stone§r from the Agent's inventory. Walk up to the Agent and §oright-click§r it. §oLeft-click§r the block of §1Stone§r to pick it up, and then §oleft-click§r an empty slot in your inventory to put it down.
+announcer.act.2.dialogue.3=Now repeat that process with the Material Digitizer. It's the machine that has a moving blue light next to the Agent. Once you complete that, turn around and look at the holographic display. It should show the block you've just digitized.
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
+announcer.act.3.dialogue.1=Since the 1970's we've been sending robots called rovers to Mars. Space missions are extremely dangerous and costly. Sending robots allows us to run experiments without putting human lives in danger.
+announcer.act.3.dialogue.2=It seems Earth lost contact with one of the robots. They asked us to locate the rover and retrieve the Martian stone it was trying to collect.
+announcer.act.3.dialogue.3=I'll stay up here to chart our next course. Call me on the §l§n§2Radio§r if you need help.
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
+announcer.act.4.dialogue.1=Now that you've retrieved the §1Red Sandstone§r, we'll need to digitize it and send it back to Earth for them to study.
+announcer.act.4.dialogue.2=To do that you'll first need to remove the §1Red Sandstone§r from the Agent's inventory. Walk up to the Agent and §oright-click§r it. §oLeft-click§r the block of Red Sandstone to pick it up, and then §oleft-click§r an empty slot in your inventory to put it down.
+announcer.act.4.dialogue.3=Now repeat that process with the Material Digitizer. It's the machine that has a moving blue light next to the Agent. Once you complete that, turn around and look at the holographic display. It should show the block you've just digitized.
+
+##	{"rawtext":[{"translate":"announcer.act.5.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.3"}]}
+announcer.act.5.dialogue.1=Great job on retrieving all the materials! 
+announcer.act.5.dialogue.2=You've earned time in the holographic simulator! Turn around and head through the door that just opened. It will simulate being on Mars and you'll be able to do whatever you want with your Agent. Give it a try!
+announcer.act.5.dialogue.3=While in the simulator your §l§n§2Radio§r will call your Agent over to you. Have fun and we'll talk when the next mission is ready!
+
+##	function generic/ready
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	function generic/not_ready
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Right-click Comdr. Cadfield to begin.
+code.actionbar=Press "C" to code.
+holodeck.actionbar=Enter the holographic simulator.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Reset
+radio.title.proceed=Reset Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=Fix the code and find the lunar stone. 
+
+
+act.2.chat.1=Repair the code and find the buried stone.
+
+
+act.2.reducer.chat.1=If you need help digitizing your block, come right-click me.
+
+
+act.3.chat.1=Use these beacons to figure out which way the rover went.
+
+
+act.4.chat.1=Debug the old repair code to find the break and fix it with a block of redstone.
+
+act.4.chat.block_extracted=We got it! Let's head back.
+
+act.4.reducer.chat.1=If you need help digitizing your block, come right-click me.
+
+
+
+
+
+
+
+
+## Holodeck
+## {"rawtext":[{"translate":"holodeck.start"}]}
+holodeck.start=Loading Simulation...
+holodeck.entered=Simulation loaded!
+holodeck.cancel=Simulation Canceled
+
+## Hyperdrive
+hyperdrive.engage=Hyperdrive Engaged
+
+## Reducer actionbar
+## {"rawtext":[{"translate":"reducer.analyze"}]}
+reducer.analyze=Digitize the block your Agent collected.

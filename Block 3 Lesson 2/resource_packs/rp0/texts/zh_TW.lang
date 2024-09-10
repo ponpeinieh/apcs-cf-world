@@ -1,0 +1,81 @@
+##
+## Block 3 Lesson 2
+## 版權所有 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 課程 2
+pack.description=Block 3 課程 2 所需資源
+
+##	通用
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=魯賓博士
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.4"}]}
+announcer.act.1.dialogue.1=你能看見我嗎？太好了。我們成功地在你和最近的時間傳送門之間設立了一個雙向通訊鏈接。看起來發生了一點意外，你現在在史前時代。
+announcer.act.1.dialogue.2=不用擔心，只是小問題。你只需要前往時間傳送門，跳進去就行了。很簡單，對吧？只要前往那座神廟，我們偵測到它就在那裡。
+announcer.act.1.dialogue.3=哦，還有一件事。過了那片空地後，可能會有一隻巨大的恐龍。我建議你偷偷前進，這樣你就會隱形。只是以防萬一，當然啦。
+announcer.act.1.dialogue.4=當你過去時，我們會試圖精確定位傳送門。我會在那裡等你。
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=這座神廟有點暗，四周都充滿危險，但你是個探險家！我相信你一定能輕鬆通過！
+announcer.act.2.dialogue.2=你有很多能力可以使用，隨時根據情況選擇合適的能力。有些危險地區甚至有多條路可以選擇。
+announcer.act.2.dialogue.3=一開始，你可以選擇爬上上半部分，或者試著游過去。我會在神廟中出現，幫助你引導方向。
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
+announcer.act.3.dialogue.1=幹得好！你快要到達時間傳送門了！
+announcer.act.3.dialogue.2=計劃有些變更。看來時間傳送門還沒有啟動。沒問題，我們有幾個想法來解決這個問題。
+announcer.act.3.dialogue.3=走上樓梯，我們再詳細討論。
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
+announcer.act.4.dialogue.1=太棒了，你成功了。我們認為已經找到了出問題的原因，準備把你帶回家。唯一的問題是時間傳送門關閉了。
+announcer.act.4.dialogue.2=我們需要為它供電。我猜你沒帶一個上億伏的電池吧？我也這麼想。我們想到了一個創意的方式來為傳送門供電。
+announcer.act.4.dialogue.3=閃電！讓天上下雨，然後讓閃電擊中那些金屬板！如果你做得快，我們可以一起笑談這件事。
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+lobby.actionbar=穿過時間傳送門。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=重設活動
+
+radio.title.warning=確認重設
+radio.subtitle.warning=再次使用以確認。
+radio.title.reset=活動已重設
+radio.title.proceed=活動已完成。
+radio.subtitle.proceed=繼續下一個活動。
+
+radio.intro=*收音機靜電*
+
+code.actionbar=按 "C" 開始編碼。
+
+##	行為
+
+act.1.chat.1=離開傳送門並與我對話。
+
+act.1.actionbar.1=離開時間傳送門。
+act.1.actionbar.2=與魯賓博士全息圖對話。
+act.1.actionbar.3=悄悄繞過棘龍。
+act.1.actionbar.4=與魯賓博士全息圖對話。
+act.1.title.caught=棘龍看見你了！
+
+act.2.chat.1=來和我說話。
+act.2.actionbar.1=進入神廟。
+act.2.actionbar.2=與魯賓博士全息圖對話。
+act.2.actionbar.3=穿過隧道。
+act.2.actionbar.4=越過岩漿。
+act.2.actionbar.5=繼續上樓梯。
+act.2.actionbar.6=穿過深坑。
+act.2.actionbar.7=繼續穿越隧道。
+
+act.3.chat.1=來和我說話。
+act.3.actionbar.1=與魯賓博士全息圖對話。
+act.3.actionbar.2=啟動時間傳送門。

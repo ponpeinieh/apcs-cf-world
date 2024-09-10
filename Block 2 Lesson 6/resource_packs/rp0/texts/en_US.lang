@@ -1,0 +1,113 @@
+##
+## Block 2 Lesson 6
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 2 Lesson 6
+pack.description=Resources needed for Block 2 Lesson 6
+
+##	Overrides
+container.hopper=Material Digitizer
+
+##	Generics
+##	{"rawtext":[{"text":"\n"},{"translate":"trophy.sign.neptune.name"},{"text":"\n§1"},{"translate":"trophy.sign.neptune.material"}]}
+trophy.sign.mercury.name=Mercury
+trophy.sign.mercury.material=Ice
+trophy.sign.venus.name=Venus
+trophy.sign.venus.material=Iron
+trophy.sign.moon.name=Earth's Moon
+trophy.sign.moon.material=Stone
+trophy.sign.mars.name=Mars
+trophy.sign.mars.material=Red Sandstone
+trophy.sign.jupiter.name=Jupiter
+trophy.sign.jupiter.material=Rock
+trophy.sign.saturn.name=Saturn
+trophy.sign.saturn.material=Ores and Gems
+trophy.sign.uranus.name=Uranus
+trophy.sign.uranus.material=Dark Ore
+trophy.sign.neptune.name=Neptune
+trophy.sign.neptune.material=Redstone Ore
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Comdr. Cadfield
+
+##	{"rawtext":[{"translate":"announcer.act.0.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.3"}]}
+announcer.act.0.dialogue.1=Let's get creative with our code!
+announcer.act.0.dialogue.2=Choose the environment you want to work in by using the buttons beside me to toggle through them. On each planet or moon there will be 5 objectives for you to fullfill and plenty of room for you to try your own code. 
+announcer.act.0.dialogue.3=Work together to complete all the objectives. Feel free to work together to create your own objectives! Once you've selected which environment you want to visit, click the §lI'm ready§r button below to open the simulation room.
+
+
+##	function generic/ready
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	function generic/not_ready
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+##	{"rawtext":[{"text":"\n"},{"translate":"lobby.sign.dec"}]}
+lobby.sign.dec=Previous
+##	{"rawtext":[{"text":"\n"},{"translate":"lobby.sign.inc"}]}
+lobby.sign.inc=Next
+
+lobby.actionbar=Right-click Comdr. Cadfield to begin.
+code.actionbar=Press "C" to code.
+holodeck.actionbar=Enter the holographic simulator.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Move Agent
+
+radio.title.warning=Move Agent
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Agent Moved
+radio.title.proceed=Reset Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+##	Acts
+
+act.1.chat.1=Welcome! Please read the board for the available objectives and instructions!
+
+
+
+## Holodeck
+## {"rawtext":[{"translate":"holodeck.start"}]}
+holodeck.start=Loading Simulation...
+holodeck.entered=Simulation loaded!
+holodeck.cancel=Simulation Canceled
+
+## Hyperdrive
+hyperdrive.engage=Hyperdrive Engaged
+
+## Reducer actionbar
+## {"rawtext":[{"translate":"reducer.analyze"}]}
+reducer.analyze=Digitize the block your Agent collected.
+
+act.title.cooldown=Exit Cooldown
+act.subtitle.cooldown=Please wait 30 seconds.
+act.title.warning=Return to Ship
+act.subtitle.warning=Press button again to confirm.
+act.title.return=Loading...
+act.subtitle.return=Please standby while we teleport you.
+
+##	Chalkboard
+## {"rawtext":[{"translate":"chalkboard.line.0"},{"text":"\n"},{"translate":"chalkboard.line.1"},{"text":"\n"},{"translate":"chalkboard.line.2"},{"text":"\n"},{"translate":"chalkboard.line.3"},{"text":"\n"},{"translate":"chalkboard.line.4"},{"text":"\n"},{"translate":"chalkboard.line.5"},{"text":"\n"},{"translate":"chalkboard.line.6"},{"text":"\n"},{"translate":"chalkboard.line.7"},{"text":"\n"},{"translate":"chalkboard.line.8"},{"text":"\n"},{"translate":"chalkboard.line.9"},{"text":"\n"},{"translate":"chalkboard.line.10"},{"text":"\n"},{"translate":"chalkboard.line.11"},{"text":"\n"},{"translate":"chalkboard.line.12"},{"text":"\n"},{"translate":"chalkboard.line.13"},{"text":"\n"},{"translate":"chalkboard.line.14"}]}
+chalkboard.line.0=Throughout this area you'll see pre-made objectives scattered around marked by a light post. Complete those objectives, and try to create custom code to make your own! After you summon the Agent by pressing §lC§r, you can use your §l§nRadio§r to teleport the Agent to your position. Use the button below to reset the area and teleport back to the spaceship.
+chalkboard.line.1=§r
+chalkboard.line.2=§lObjectives:§r
+chalkboard.line.3=1. Mine the ore
+chalkboard.line.4=2. Complete the maze.
+chalkboard.line.5=3. Collect the golden blocks
+chalkboard.line.6=4. Follow the wall to the gold block
+chalkboard.line.7=5. Find the diamonds in the crater.
+chalkboard.line.8=§r
+
+## Planet descriptions (on selection)
+planet.0.info=Mercury
+planet.1.info=Venus
+planet.2.info=Mars
+planet.3.info=Ganymede

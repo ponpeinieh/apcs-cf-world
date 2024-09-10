@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:saturn",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.saturn"
+			},
+			"textures": {
+				"default": "textures/entity/planet/saturn"
+			},
+			"materials": {
+				"default": "transparent"
+			},
+			"animations": {
+				"spin":"animation.saturn.rotate"
+			},
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			}
+		}
+	}
+}

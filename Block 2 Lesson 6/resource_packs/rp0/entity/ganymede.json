@@ -1,0 +1,29 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:ganymede",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.ganymede"
+			},
+			"textures": {
+				"default": "textures/entity/planet/ganymede"
+			},
+			"materials": {
+				"default": "transparent"
+			},
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,65 @@
+##
+## Block 2 Lesson 1
+## Copyright 2020 ReWrite Media, Inc
+##
+
+pack.name=Block 2 Lesson 1
+pack.description=Resources needed for Block 2 Lesson 1
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Commander Cadfield
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=Welcome to the astronaut training center! This is where newbie astronauts learn how to use their gear in space. 
+announcer.dialogue.2=We're going to put your Agent through a series of tests. These tests were designed to represent the conditions you'll find in space. 
+announcer.dialogue.3=Head on to the first activity when you're ready. I'll stay here. You can reach me on your §l§n§2Radio§r if you have any trouble.
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Right-click Commander Cadfield to begin.
+code.actionbar=Press "C" to code.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+## {"rawtext":[{"text":"\n"},{"translate":"act.5.sign.up"}]}
+act.5.sign.up=UP
+## {"rawtext":[{"text":"\n"},{"translate":"act.5.sign.down"}]}
+act.5.sign.down=DOWN
+
+##	Acts
+
+act.1.chat.1=Let's see if you can move your Agent over to the gold block and collect it.
+
+
+act.2.chat.1=See if you could navigate your Agent to the gold block staying on the stone path.
+
+
+act.3.chat.1=Have your Agent get to the gold block and retrieve it.
+
+
+act.4.chat.1=Get your Agent to retrieve both the bottom and top gold blocks.
+
+
+act.5.chat.1=In the simulation chamber you have full control over anywhere on the grid. Can you find an efficient way to get all the gold blocks?
+
+
+

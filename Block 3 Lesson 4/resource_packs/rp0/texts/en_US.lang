@@ -1,0 +1,71 @@
+##
+## Block 3 Lesson 4
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 Lesson 4
+pack.description=Resources needed for Block 3 Lesson 4
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Rubin
+
+##	{"rawtext":[{"translate":"announcer.act.1.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.dialogue.3"}]}
+announcer.act.1.dialogue.1=We were closer this time! I think for sure we'll be able to get home next trip through the portal. Where else would we go?
+announcer.act.1.dialogue.2=Welcome to the American frontier circa 1850. The gold rush is in full swing, and small mining towns are popping up all over the west.
+announcer.act.1.dialogue.3=While we locate the portal, why don't you help these miners clear out that area? They can't fit under, but I bet your Agent can. You'll probably need to take manual control of it.
+
+##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
+announcer.act.2.dialogue.1=Let's help them build up this town a bit. There are markings for two new houses that need to go up. Help them out by building the walls. 
+announcer.act.2.dialogue.2=The length and width should be the size of the yellow and black markings. The left house should be three blocks high and the right one should be five.
+announcer.act.2.dialogue.3=Once the walls are up, the workers can come finish building the houses.
+
+##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
+announcer.act.3.dialogue.1=They need to start construction on the town hall, I think we can help with that.
+announcer.act.3.dialogue.2=It's not a perfect square like the houses we built. This time you'll need to specify both the length and the width. You'll also need to make the walls five blocks high.
+announcer.act.3.dialogue.3=While you finish this up, we'll figure out the location of the time portal.
+
+##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
+announcer.act.4.dialogue.1=We just got a reading, it seems like the portal appeared...inside the town hall?
+announcer.act.4.dialogue.2=Break through the wall you just built with this pick-axe. The portal should be in there.
+announcer.act.4.dialogue.3=Hurry! Tonight's movie night and I saved you a spot on the couch!
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Go through the time portal.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+code.actionbar=Press "C" to begin coding.
+
+##	Acts
+
+act.1.actionbar.1=Exit the time portal.
+act.1.actionbar.2=Talk with the Dr. Rubin hologram.
+act.1.actionbar.3=Head out the mine and through the gate.
+
+act.2.chat.1=Great job! Now build the next set of walls.
+act.2.actionbar.1=Go through the gate.
+act.2.actionbar.2=Talk with the Dr. Rubin hologram.
+
+act.3.actionbar.1=Go through the gate.
+act.3.actionbar.2=Talk with the Dr. Rubin hologram.
+act.3.actionbar.3=Break through the walls and walk inside.

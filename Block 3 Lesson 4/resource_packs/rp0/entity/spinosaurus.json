@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:spinosaurus",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.spinosaurus"
+			},
+			"textures": {
+				"default": "textures/entity/dinosaurs/spinosaurus"
+			},
+			"materials": {
+				"default": "transparent"
+			},
+			"scripts": {
+				"animate": [
+					"look_at_target"
+				]
+			},
+			"animations": {
+				"look_at_target": "animation.common.look_at_target"
+			}
+		}
+	}
+}

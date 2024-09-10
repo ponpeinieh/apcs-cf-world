@@ -1,0 +1,58 @@
+##
+## Block 2 第1課
+## 版權 2020 ReWrite Media, Inc
+##
+
+pack.name=Block 2 第1課
+pack.description=Block 2 第1課所需資源
+
+##	通用
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=卡德菲爾德指揮官
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=歡迎來到太空人訓練中心！這裡是新手太空人學習如何在太空中使用裝備的地方。
+announcer.dialogue.2=我們將讓你的代理進行一系列測試，這些測試模擬了你在太空中會遇到的條件。
+announcer.dialogue.3=準備好後前往第一項活動。我會留在這裡。如果有任何問題，你可以使用§l§n§2收音機§r與我聯繫。
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=我準備好了
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=還沒準備好
+
+lobby.actionbar=右鍵點擊卡德菲爾德指揮官以開始。
+code.actionbar=按下 "C" 來編程。
+
+act.title.complete=活動完成！
+lesson.title.complete=課程完成！
+
+item.fishing_rod.name=§l§n§2收音機§r
+action.interact.fishing=重置活動
+
+radio.title.warning=確認重置
+radio.subtitle.warning=再次使用確認。
+radio.title.reset=活動已重置
+radio.title.proceed=活動完成。
+radio.subtitle.proceed=進入下一個活動。
+
+radio.intro=*收音機雜音*
+
+## {"rawtext":[{"text":"\n"},{"translate":"act.5.sign.up"}]}
+act.5.sign.up=上
+## {"rawtext":[{"text":"\n"},{"translate":"act.5.sign.down"}]}
+act.5.sign.down=下
+
+##	行動
+
+act.1.chat.1=來看看你能否讓你的代理移動到金磚並收集它。
+
+act.2.chat.1=試試看能否讓你的代理沿著石頭路徑到達金磚。
+
+act.3.chat.1=讓你的代理到達金磚並取回它。
+
+act.4.chat.1=讓你的代理取回上下兩個金磚。
+
+act.5.chat.1=在模擬室中，你可以完全控制網格上的任何位置。看看你能否找到一個高效的方法來收集所有的金磚。

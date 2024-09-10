@@ -1,0 +1,32 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "pws:jupiter_prop",
+			"spawn_egg": {
+				"base_color": "#ffffff",
+				"overlay_color": "#ffffff"
+			},
+			"render_controllers": [
+				"controller.render.all"
+			],
+			"geometry": {
+				"default": "geometry.jupiter_prop"
+			},
+			"textures": {
+				"default": "textures/entity/planet/jupiter"
+			},
+			"materials": {
+				"default": "transparent"
+			},
+			"animations": {
+				"spin":"animation.jupiter_prop.rotate"
+			},
+			"scripts": {
+				"animate": [
+					"spin"
+				]
+			}
+		}
+	}
+}

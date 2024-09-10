@@ -1,0 +1,65 @@
+##
+## Block 3 Lesson 1
+## Copyright 2020 ReWrite Media, Inc.
+##
+
+pack.name=Block 3 Lesson 1
+pack.description=Resources needed for Block 3 Lesson 1
+
+##	Generics
+
+##	{"rawtext":[{"translate":"announcer"}]}
+announcer=Dr. Rubin
+
+##	{"rawtext":[{"translate":"announcer.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.dialogue.3"}]}
+announcer.dialogue.1=Welcome! Are you ready to be the first the person to travel through time? 
+announcer.dialogue.2=Before we could enter the time gate, we need to get you ready. Ahead of you are some tests, let's see if you can get past them so we can activate the time gate!
+announcer.dialogue.3=Let me know when you're ready. I'll give you the §l§n§2Radio§r you could use to call for help.
+
+##	execute @e[tag=game] ~ ~ ~ function act/1/set
+##	{"rawtext":[{"translate":"announcer.button.ready"}]}
+announcer.button.ready=I'm ready
+
+##	{"rawtext":[{"translate":"announcer.button.not_ready"}]}
+announcer.button.not_ready=Not ready
+
+lobby.actionbar=Right-click Dr. Rubin to begin.
+
+act.title.complete=Activity Complete!
+lesson.title.complete=Lesson Complete!
+
+item.fishing_rod.name=§l§n§2Radio§r
+action.interact.fishing=Reset Activity
+
+radio.title.warning=Confirm Reset
+radio.subtitle.warning=Use again to confirm.
+radio.title.reset=Activity Reset
+radio.title.proceed=Activity Completed.
+radio.subtitle.proceed=Proceed to the next activity.
+
+radio.intro=*Radio static*
+
+code.actionbar=Press "C" to begin coding.
+
+##	Acts
+
+act.1.chat.1=See if you could get past that lava. I wouldn't advise jumping in without protection.
+
+
+act.2.chat.1=Those steps are pretty steep. How can you get up them?
+
+
+act.3.chat.1=Recreate the pyramid. It'll take exactly 34 blocks. You could use iron, gold, diamond, or emerald to build it.
+
+
+act.4.chat.1=Match the block that's displayed on the floor.
+
+act.4.title.matched=Matched!
+act.4.title.cleared=Cleared!
+act.4.actionbar.match_block=Waiting for match...
+act.4.actionbar.clear_block=Reset the block back to 0.
+
+act.5.chat.1=See if you can make it rain!
+
+
+

@@ -1,0 +1,20 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.trophy.spin": {
+			"loop": true,
+			"animation_length": 5,
+			"bones": {
+				"trophy": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.0": [0, 72, 5],
+						"2.8833": [0, 207.36, -7.35],
+						"3.9167": [10, 282.24, 1.26],
+						"5.0": [0, 360, 0]
+					}
+				}
+			}
+		}
+	}
+}

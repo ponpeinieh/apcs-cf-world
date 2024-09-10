@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "rwm:npc_2",
+			"materials": {
+				"default": "translucent"
+			},
+			"geometry": {
+				"default": "geometry.npc_2"
+			},
+			"textures": {
+				"npc_1": "textures/entity/npc/npc_1",
+				"npc_2": "textures/entity/npc/npc_2",
+				"npc_3": "textures/entity/npc/npc_3",
+				"npc_4": "textures/entity/npc/npc_4",
+				"npc_5": "textures/entity/npc/npc_5",
+				"npc_6": "textures/entity/npc/npc_6",
+				"npc_7": "textures/entity/npc/npc_7",
+				"npc_8": "textures/entity/npc/npc_8",
+				"npc_9": "textures/entity/npc/npc_9",
+				"npc_10": "textures/entity/npc/npc_10",
+				"npc_scientist_1": "textures/entity/npc/npc_scientist_1",
+				"npc_scientist_2": "textures/entity/npc/npc_scientist_2",
+				"npc_scientist_3": "textures/entity/npc/npc_scientist_3",
+				"npc_scientist_4": "textures/entity/npc/npc_scientist_4",
+				"npc_scientist_5": "textures/entity/npc/npc_scientist_5",
+				"npc_scientist_6": "textures/entity/npc/npc_scientist_6",
+				"npc_scientist_7": "textures/entity/npc/npc_scientist_7",
+				"npc_scientist_8": "textures/entity/npc/npc_scientist_8",
+				"npc_scientist_9": "textures/entity/npc/npc_scientist_9",
+				"npc_scientist_10": "textures/entity/npc/npc_scientist_10"
+			},
+			"animations": {
+				"general": "animation.npc_2.general",
+				"move": "animation.villager.move", 
+				"look_at_target": "animation.common.look_at_target"
+			},
+			"animation_controllers": [
+				{ "move": "controller.animation.villager_v2.move" },
+				{ "general": "controller.animation.npc_2.general" }
+			],
+			"render_controllers": [ "controller.render.npc_2" ],
+			"spawn_egg": {
+				"texture": "spawn_egg",
+				"texture_index": 35
+			}
+		}
+	}
+}
