@@ -7,7 +7,7 @@ pack.name=第2課第2部分
 pack.description=第2課第2部分所需資源  
 
 ## 覆蓋  
-container.hopper=材料數字化器  
+container.hopper=材料數位化儀器  
 
 ## 通用  
 trophy.sign.mercury.name=水星  
@@ -29,7 +29,7 @@ announcer.act.0.dialogue.3=前往水星表面，看看我們能否找到帶有�
 
 announcer.act.2.dialogue.1=現在你已經收集到了§1藍冰§r，我們需要將它數字化並發送回地球供他們研究。  
 announcer.act.2.dialogue.2=為此，你首先需要從代理的庫存中取出§1藍冰§r。走近代理並§o右鍵單擊§r它。§o左鍵單擊§r藍冰塊來拾取它，然後§o左鍵單擊§r你的庫存中的一個空槽放下它。  
-announcer.act.2.dialogue.3=現在對材料數字化器重複此過程。它是代理旁邊帶有移動藍光的機器。完成後，轉身看看全息顯示器。它應該顯示你剛剛數字化的方塊。  
+announcer.act.2.dialogue.3=現在對材料數位化儀器重複此過程。它是代理旁邊帶有移動藍光的機器。完成後，轉身看看全息顯示器。它應該顯示你剛剛數字化的方塊。  
 
 announcer.act.3.dialogue.1=接下來我們將前往離地球最近的行星——金星。金星是太陽系中最熱的行星，因為它有厚厚的有毒雲層。它的表面溫度穩定在864華氏度，人類根本無法在其表面生存。  
 announcer.act.3.dialogue.2=在其外層大氣中，溫度較低，較為適宜。我們將從那裡開始，看看是否可以將代理發送到其炙熱的表面。  
@@ -37,7 +37,7 @@ announcer.act.3.dialogue.3=我會從上面監視你。如果需要幫助，請�
 
 announcer.act.4.dialogue.1=現在你已經收集到了§1鐵礦石§r，我們需要將它數字化並發送回地球供他們研究。  
 announcer.act.4.dialogue.2=為此，你首先需要從代理的庫存中取出鐵礦石。走近代理並§o右鍵單擊§r它。§o左鍵單擊§r鐵礦石來拾取它，然後§o左鍵單擊§r你的庫存中的一個空槽放下它。  
-announcer.act.4.dialogue.3=現在對材料數字化器重複此過程。它是代理旁邊帶有移動藍光的機器。完成後，轉身看看全息顯示器。它應該顯示你剛剛數字化的方塊。  
+announcer.act.4.dialogue.3=現在對材料數位化儀器重複此過程。它是代理旁邊帶有移動藍光的機器。完成後，轉身看看全息顯示器。它應該顯示你剛剛數字化的方塊。  
 
 announcer.act.5.dialogue.1=非常棒！你已經完成了所有材料的回收！  
 announcer.act.5.dialogue.2=你現在可以在全息模擬器中享受自由時間了！轉身走進剛剛打開的門。它會模擬你在水星上的場景，你可以與代理自由互動。試試吧！  
@@ -80,6 +80,6 @@ holodeck.start=加載模擬中...
 holodeck.entered=模擬已加載！  
 holodeck.cancel=模擬已取消  
 
-hyperdrive.engage=超空間驅動已啟動  
+hyperdrive.engage=超光速引擎啟動 
 
 reducer.analyze=將代理收集的方塊進行數字化。  

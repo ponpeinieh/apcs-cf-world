@@ -7,7 +7,7 @@ pack.name=Block 2 Lesson 4
 pack.description=Block 2 Lesson 4 所需的資源
 
 ##	Overrides
-container.hopper=材料數位化器
+container.hopper=材料數位化儀器
 
 ##	Generics
 ##	{"rawtext":[{"text":"\n"},{"translate":"trophy.sign.saturn.name"},{"text":"\n§1"},{"translate":"trophy.sign.saturn.material"}]}
@@ -37,7 +37,7 @@ announcer.act.0.dialogue.3=下去調查這些溝紋，看看能否帶回一些�
 ##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}
 announcer.act.2.dialogue.1=現在你已經取回了§1岩石§r，我們需要將其數位化並送回地球以供研究。
 announcer.act.2.dialogue.2=為此，你需要先從代理的庫存中取出§1岩石§r。走到代理旁邊並§o右鍵單擊§r它。§o左鍵單擊§r§1岩石§r方塊以將其撿起，然後§o左鍵單擊§r你的庫存中的一個空槽將其放下。
-announcer.act.2.dialogue.3=現在對材料數位化器重複這個過程。這是代理旁邊有藍光移動的機器。完成後，轉身查看全息顯示器。應該會顯示你剛數位化的方塊。
+announcer.act.2.dialogue.3=現在對材料數位化儀器重複這個過程。這是代理旁邊有藍光移動的機器。完成後，轉身查看全息顯示器。應該會顯示你剛數位化的方塊。
 
 ##	{"rawtext":[{"translate":"announcer.act.3.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.3.dialogue.3"}]}
 announcer.act.3.dialogue.1=其他行星可能也有環，但沒有一個像土星那麼明顯。數十億的小岩塊和冰塊聚集在一起形成了土星環。
@@ -47,7 +47,7 @@ announcer.act.3.dialogue.3=我已經找到了環中的一個有趣點。下去�
 ##	{"rawtext":[{"translate":"announcer.act.4.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.4.dialogue.3"}]}
 announcer.act.4.dialogue.1=現在你已經取回了§1礦石和寶石§r，我們需要將它們數位化並送回地球以供研究。
 announcer.act.4.dialogue.2=為此，你需要先從代理的庫存中取出§1礦石和寶石§r。走到代理旁邊並§o右鍵單擊§r它。§o左鍵單擊§r紅砂岩方塊以將其撿起，然後§o左鍵單擊§r你的庫存中的一個空槽將其放下。
-announcer.act.4.dialogue.3=現在對材料數位化器重複這個過程。這是代理旁邊有藍光移動的機器。完成後，轉身查看全息顯示器。應該會顯示你剛數位化的方塊。
+announcer.act.4.dialogue.3=現在對材料數位化儀器重複這個過程。這是代理旁邊有藍光移動的機器。完成後，轉身查看全息顯示器。應該會顯示你剛數位化的方塊。
 
 ##	{"rawtext":[{"translate":"announcer.act.5.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.5.dialogue.3"}]}
 announcer.act.5.dialogue.1=你做得很好，取回了所有的材料！
@@ -101,7 +101,7 @@ holodeck.entered=模擬已載入！
 holodeck.cancel=模擬已取消
 
 ## Hyperdrive
-hyperdrive.engage=超空間引擎啟動
+hyperdrive.engage=超光速引擎啟動
 
 ## Reducer actionbar
 ## {"rawtext":[{"translate":"reducer.analyze"}]}

@@ -7,7 +7,7 @@ pack.name=Block 2 第五課
 pack.description=Block 2 第五課所需資源
 
 ##	覆蓋
-container.hopper=材料數位化儀
+container.hopper=材料數位化儀器
 
 ##	通用
 ##	{"rawtext":[{"text":"\n"},{"translate":"trophy.sign.neptune.name"},{"text":"\n§1"},{"translate":"trophy.sign.neptune.material"}]}
@@ -39,7 +39,7 @@ announcer.act.0.dialogue.3=§l警告：§r 在按下“我準備好了”之前�
 ##	{"rawtext":[{"translate":"announcer.act.1.success.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.success.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.success.dialogue.3"}]}
 announcer.act.1.success.dialogue.1=現在你已經取回了§1黑礦§r，我們需要將它數位化並發送回地球進行研究。
 announcer.act.1.success.dialogue.2=首先，你需要從代理的物品欄中取出§1黑礦§r。走近代理並§o右鍵單擊§r它。§o左鍵單擊§r§1黑礦§r塊以拾取，然後§o左鍵單擊§r你的物品欄中的空槽將其放下。
-announcer.act.1.success.dialogue.3=現在重複這個過程，對材料數位化儀操作。它是代理旁邊有藍色光線移動的機器。一旦完成，轉身看看全息顯示屏，它應該會顯示你剛數位化的方塊。
+announcer.act.1.success.dialogue.3=現在重複這個過程，對材料數位化儀器操作。它是代理旁邊有藍色光線移動的機器。一旦完成，轉身看看全息顯示屏，它應該會顯示你剛數位化的方塊。
 
 ##	{"rawtext":[{"translate":"announcer.act.1.fail.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.1.fail.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.1.fail.dialogue.3"}]}
 announcer.act.1.fail.dialogue.1=很遺憾，你選擇了錯誤的代碼，無法收集我們想分析的§1黑礦§r。
@@ -54,7 +54,7 @@ announcer.act.2.dialogue.3=§l警告：§r 在按下“我準備好了”之前�
 ##	{"rawtext":[{"translate":"announcer.act.2.success.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.success.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.success.dialogue.3"}]}
 announcer.act.2.success.dialogue.1=現在你已經取回了§1紅石礦§r，我們需要將它數位化並發送回地球進行研究。
 announcer.act.2.success.dialogue.2=首先，你需要從代理的物品欄中取出§1紅石礦§r。走近代理並§o右鍵單擊§r它。§o左鍵單擊§r§1紅石礦§r塊以拾取，然後§o左鍵單擊§r你的物品欄中的空槽將其放下。
-announcer.act.2.success.dialogue.3=現在重複這個過程，對材料數位化儀操作。它是代理旁邊有藍色光線移動的機器。一旦完成，轉身看看全息顯示屏，它應該會顯示你剛數位化的方塊。
+announcer.act.2.success.dialogue.3=現在重複這個過程，對材料數位化儀器操作。它是代理旁邊有藍色光線移動的機器。一旦完成，轉身看看全息顯示屏，它應該會顯示你剛數位化的方塊。
 
 ##	{"rawtext":[{"translate":"announcer.act.2.fail.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.fail.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.fail.dialogue.3"}]}
 announcer.act.2.fail.dialogue.1=感謝你幫助我們為地球上的科學家收集了所有材料！

@@ -62,14 +62,14 @@ code.actionbar=按 "C" 開始編碼。
 act.1.chat.1=離開傳送門並與我對話。
 
 act.1.actionbar.1=離開時間傳送門。
-act.1.actionbar.2=與魯賓博士全息圖對話。
+act.1.actionbar.2=與魯賓博士全息影像對話。
 act.1.actionbar.3=悄悄繞過棘龍。
-act.1.actionbar.4=與魯賓博士全息圖對話。
+act.1.actionbar.4=與魯賓博士全息影像對話。
 act.1.title.caught=棘龍看見你了！
 
 act.2.chat.1=來和我說話。
 act.2.actionbar.1=進入神廟。
-act.2.actionbar.2=與魯賓博士全息圖對話。
+act.2.actionbar.2=與魯賓博士全息影像對話。
 act.2.actionbar.3=穿過隧道。
 act.2.actionbar.4=越過岩漿。
 act.2.actionbar.5=繼續上樓梯。
@@ -77,5 +77,5 @@ act.2.actionbar.6=穿過深坑。
 act.2.actionbar.7=繼續穿越隧道。
 
 act.3.chat.1=來和我說話。
-act.3.actionbar.1=與魯賓博士全息圖對話。
+act.3.actionbar.1=與魯賓博士全息影像對話。
 act.3.actionbar.2=啟動時間傳送門。

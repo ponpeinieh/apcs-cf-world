@@ -78,7 +78,7 @@ holodeck.entered=模擬加載完成！
 holodeck.cancel=模擬已取消
 
 ## 超空間引擎
-hyperdrive.engage=超空間引擎啟動
+hyperdrive.engage=超光速引擎啟動
 
 ## 減速器動作條
 ## {"rawtext":[{"translate":"reducer.analyze"}]}
