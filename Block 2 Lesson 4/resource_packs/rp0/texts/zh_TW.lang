@@ -31,7 +31,7 @@ announcer=卡德菲爾德指揮官
 
 ##	{"rawtext":[{"translate":"announcer.act.0.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.0.dialogue.3"}]}
 announcer.act.0.dialogue.1=木衛三是太陽系中最大的衛星，也是唯一一顆擁有磁場的衛星。
-announcer.act.0.dialogue.2=大部分的月球由溝紋地形組成，表面形成了複雜的圖案。雖然主要是冰，但也有一些岩石區域突出。
+announcer.act.0.dialogue.2=大部分的衛星由溝紋地形組成，表面形成了複雜的圖案。雖然主要是冰，但也有一些岩石區域突出。
 announcer.act.0.dialogue.3=下去調查這些溝紋，看看能否帶回一些岩石樣本。如需幫助，請透過無線電聯繫我。
 
 ##	{"rawtext":[{"translate":"announcer.act.2.dialogue.1"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.2"},{"text":"\n\n"},{"translate":"announcer.act.2.dialogue.3"}]}

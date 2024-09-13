@@ -8,3 +8,4 @@ codebuilder navigate @a false https://minecraft.makecode.com/?ipc=1&inGame=1&noR
 gamerule dotiledrops false
 # start check
 setblock 0 2 22 redstone_block 
+setblock 685 99 177 minecraft:gold_block 
